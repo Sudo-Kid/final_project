@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Template</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<link type="text/css" 
+            rel="stylesheet" 
+            href="styles/boxmodel.css" />
+
+        <link type="text/css" 
+            rel="stylesheet" 
+            href="styles/styles.css" />    
+
+		<style type="text/css">
+
+            /*landing page rss feed*/
+            
+            #updates h1 {
+            	margin: 5px 0; 
+            }
+            
+            #rss-feed {
+            	text-align: left;
+            	margin: 0 5px;
+            }
+            
+            .rssHeader {
+            	display: none;
+            }
+            
+            #rss-feed ul {
+            	list-style: none;
+            	padding: 0px;
+            }
+            
+            #rss-feed li {
+            	border-bottom: 1px solid black;
+            }
+            
+            #rss-feed h4, #rss-feed p {
+            	margin: 5px 0;
+            }
+            
+            /*end landing page rss feed*/
+            
+            /*lecture nav rules*/
+            
+            #anchor-nav h1{
+            	margin: 5px 0;     
+            }
+            
+            #anchor-nav ul {
+            	list-style: none;
+            	padding: 0px;
+            }
+            
+            #anchor-nav .rssHeader {
+            	display: none;
+            }
+            
+            #anchor-nav li div {
+            	display: none;
+            }
+            
+            #anchor-nav li p {
+            	display: none;
+            }
+            
+            /*end lecture nav rules*/
+
+            /*box-model rules*/ 
+            body {
+            	width: 1200px;
+            	margin: 0 auto;
+            }
+            
+            header {
+            	margin: 5px 0;		
+            }
+            
+            #bcit-banner {
+            	margin-bottom: 5px;
+            }
+            
+            #top-nav {
+            
+            }
+            
+            #side-nav {
+            	width: 19%;
+            	float:right;
+            	margin: 0px 0 5px 5px;
+            }
+            
+            #search-box {
+            	margin-bottom: 5px;
+            }
+            
+            #main-body {
+            	width: 80%;
+            	margin: 5px 5px 5px 0; 
+            }
+            
+            #team-banner, #welcome-text{
+            	margin: 0 0 5px 0;
+            }
+            
+            #updates {
+            	margin: 0;
+            }
+            
+            footer {
+            	width: 100%;
+            	text-align: center;
+            }
+            
+            #associated-links{
+            	width: 33%;
+            	display: inline-block;
+            	float: left;
+            }
+            
+            #tools {
+            	width: 32%;
+            	display: inline-block;
+            }
+            
+            #more-info {
+            	width: 33%;
+            	display: inline-block;
+            	float: right;
+            }
+            
+            #copyright {
+            	width: 100%;
+            	margin: 5px 0;
+            }
+            
+            
+            /*end box-model rules*/ 
+
+/*template variables to be removed*/
+			#bcit-banner, #top-nav, #side-nav #search-box, #anchor-nav, section, #associated-links, #tools, #more-info, #copyright, article {
+				border:1px solid black;
+				text-align: left;
+			}
+
+			#bcit-banner {
+				height:100px;
+			}
+
+
+			#anchor-nav {
+                height:200px;
+			}
+
+
+/*end template variables to be removed*/
+
+		</style>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		
+		<script src="http://students.thenet.ca/elambke/js/jquery.zrssfeed.min.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function () {
+			  $('#rss-feed').rssfeed('http://blog-1950.tumblr.com/tagged/blog/rss', {
+			    limit: 12
+			  });
+			});
+		</script>
+		
+		<script type="text/javascript">
+			$(document).ready(function () {
+			  $('#anchor-nav').rssfeed('http://blog-1950.tumblr.com/tagged/lecture/rss', {
+			    limit: 12
+			  });
+			});
+		</script>
+
+	</head>
+	
+	<body>
+		<header>
+			<div id="bcit-banner">
+
+				BCIT BANNER
+
+			</div> <!--end bcit-banner-->
+
+			<nav id="top-nav">
+
+				TOP NAV
+
+			</nav> <!--end top-nav-->
+		</header>
+
+		<div id="side-nav">
+			<div id="search-box">
+
+				SEARCH BAR
+
+			</div><!--end search-box-->
+
+			<nav id="anchor-nav">
+
+				ANCHOR NAV
+
+			</nav><!--end anchor-nav-->	
+
+
+		</div><!--end side-nav-->
+
+		<section id="main-body">
+		
+		    {block:IndexPage}
+		    
+			<article id="team-banner">
+				
+				TEAM BANNER<br />
+				TEAM BANNER<br />
+				TEAM BANNER<br />
+				TEAM BANNER<br />
+				TEAM BANNER<br />
+				TEAM BANNER<br />
+
+	
+			</article>
+			
+			{/block:IndexPage}
+
+			<article id="welcome-text">
+            {block:PermalinkPage}
+                {block:Posts}
+                <article class="{PostType} post">
+                
+                {block:ifShowHeader}
+                <header>
+                    
+                    <h4>{Title}</h2>
+                    {block:Caption}
+                        <h5>{Caption}</h5>
+                    {/block:Caption}
+                </header>
+                {/block:ifShowHeader}
+                
+                {block:Text}
+
+                        {Body}
+                {/block:Text}
+
+                {block:Photo}
+                    <h4>asldfkjlaskdjf</h4>
+                    <figure>
+                       <h4>Photo</h4>
+                        <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
+                        {block:Caption}<caption>{Caption} </caption>{/block:Caption}
+                    </figure>
+
+                {/block:Photo}
+                
+                
+                {block:Photoset}
+                    <h4>asldfkjlaskdjf</h4>
+                    <figure>
+                       <h4>Photo</h4>
+                        {Photoset-500}
+                        {block:Caption}<caption>{Caption} </caption>{/block:Caption}
+                    </figure>
+
+                {/block:Photoset}
+                
+                <footer>
+                    {block:HasTags} 
+                    <h3>Tags!!!!</h3>
+                    <ul class="tags">
+                    {block:Tags}
+                        <li>{Tag}</li>
+                    {/block:Tags}
+                    </ul>
+                    {/block:HasTags}
+                    
+                    <br />
+                    <p>Posted on {Month} {DayOfMonth} by {PostAuthorName}</p>
+         
+                   </footer> 
+                </article>
+                {/block:Posts}
+            {/block:PermalinkPage}
+
+
+			</article>
+
+            {block:IndexPage}
+
+			<article id="updates">
+				<h1>News feed</h1>
+				<div id="rss-feed">
+
+				</div>
+
+			</article>
+			
+		    {/block:IndexPage}
+
+		</section>
+
+		<footer>
+			<div id="associated-links">
+
+				ASSOCIATED LINKS
+
+			</div> <!--end associated-links-->
+			
+
+			<div id="tools">
+
+				TOOLS
+
+			</div><!--end tools-->
+			
+
+			<div id="more-info">
+
+				MORE INFO
+
+			</div><!--end more-info-->
+
+			<div id="copyright">
+
+				COPYRIGHT
+
+			</div><!--end copyright-->
+
+		</footer>		
+	</body>
+</html>
