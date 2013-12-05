@@ -1,0 +1,30 @@
+/*landing page rss feed*/
+
+#updates h1 {
+	margin: 5px 0; 
+}
+
+#rss-feed {
+	text-align: left;
+	margin: 0 5px;
+}
+
+.rssHeader {
+	display: none;
+}
+
+#rss-feed ul {
+	list-style: none;
+	padding: 0px;
+}
+
+#rss-feed li {
+	border-bottom: 1px solid black;
+}
+
+#rss-feed h4, #rss-feed p {
+	margin: 5px 0;
+}
+
+/*end landing page rss feed*/
+

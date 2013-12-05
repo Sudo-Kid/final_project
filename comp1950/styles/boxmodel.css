@@ -1,0 +1,70 @@
+/*box-model rules*/ 
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	margin: 5px 0;		
+}
+
+#bcit-banner {
+	margin-bottom: 5px;
+}
+
+#top-nav {
+
+}
+
+#side-nav {
+	width: 19%;
+	float:right;
+	margin: 0px 0 5px 5px;
+}
+
+#search-box {
+	margin-bottom: 5px;
+}
+
+#main-body {
+	width: 80%;
+	margin: 5px 5px 5px 0; 
+}
+
+#team-banner, #welcome-text{
+	margin: 0 0 5px 0;
+}
+
+#updates {
+	margin: 0;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+}
+
+#associated-links{
+	width: 33%;
+	display: inline-block;
+	float: left;
+}
+
+#tools {
+	width: 32%;
+	display: inline-block;
+}
+
+#more-info {
+	width: 33%;
+	display: inline-block;
+	float: right;
+}
+
+#copyright {
+	width: 100%;
+	margin: 5px 0;
+}
+
+
+/*end box-model rules*/ 
