@@ -1,4 +1,9 @@
 final_project
 =============
 
-This is the Final Project for Comp1950 Fall 2013 downtown
+Emett's to do list
+*Drop down Nav for main site and mobile
+*Footer
+*Header
+*Includes
+*Lecture Pages x3
