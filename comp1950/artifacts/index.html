@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>test git hub</title>
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+
+$("#hide").click(function(){
+$(".box").hide(200);
+});
+
+$("#show").click(function(){
+$(".box").show(500);
+});
+
+$("#toggle").click(function() {
+  $(".box" ).toggle();
+});
+
+});
+</script>
+
+<style>
+body{font-family:Arial;
+background-color:cornflowerblue;
+}
+
+.box{background-color:red;
+width:250px;
+height:250px;}
+
+
+</style>
+
+</head>
+<body>
+<h1>test git hub</h1>
+
+<ul>
+<li id="hide"><a href="#">Hide</li>
+<li id="show"><a href="#">Show</li>
+<li id="toggle"><a href="#">Toggle</li>
+
+</ul>
+<div class="box"></div>
+<body>
+</html>
