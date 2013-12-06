@@ -119,24 +119,6 @@
 			font-size: 300%;
 		}
 
-		#top-nav ul li a {
-			text-decoration: none;
-			border-top-left-radius: 5px;
-			border-top-right-radius: 5px;
-			border-bottom-left-radius: 5px;
-			border-bottom-right-radius: 5px;
-			background: #434343;
-			padding: 12px;	
-			color: #979797;
-
-		}
-		
-		#top-nav ul li {
-			display: inline-block;
-			float: left;
-			margin-left: 10px;
-		}
-
 
 
 
