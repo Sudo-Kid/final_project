@@ -27,6 +27,8 @@
 		
 		<script src="http://students.thenet.ca/elambke/js/jquery.zrssfeed.min.js" type="text/javascript"></script>
 
+		<script src="/js/accordion.js" type="text/javascript">
+
 		<script type="text/javascript">
 			$(document).ready(function () {
 			  $('#rss-feed').rssfeed('http://blog-1950.tumblr.com/tagged/blog/rss', {
@@ -106,12 +108,24 @@
 					</div><!--end search-box-->
 
 					<nav id="anchor-nav">
-						<ul>
-							<li><a href="#">Week 1</a></li>
-							<li><a href="#">Week 2</a></li>
-							<li><a href="#">Week 3</a></li>
-							<li><a href="#">Week 4</a></li>
-						</ul>
+						<div class="accordion"> <!-- Starting Accordion -->
+							<h3>Lecture 1</h3>
+							<div> <!-- Lecture 1 Div -->
+						  		<p>Contet here</p>
+							</div> <!-- End Lecture 1 Div -->
+							<h3>Lecture 2</h3>
+							<div> <!-- Lecture 2 Div -->
+						    	<p>Contet here</p>
+							</div> <!-- End Lecture 2 Div -->
+							<h3>Lecture 3</h3>
+							<div> <!-- Lecture 3 Div -->
+						  		<p>Contet Here</p>
+							</div> <!-- End Lecture 3 Div -->
+							<h3>Lecture 4</h3>
+							<div> <!-- Lecture 4 Div -->
+						  		<p>Contet here</p>
+							</div> <!-- End Lecture 4 Div -->
+						</div><!-- Clossing Accordion -->
 					</nav><!--end anchor-nav-->	
 
 				</aside>
