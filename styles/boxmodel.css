@@ -9,11 +9,17 @@ header {
 }
 
 #bcit-banner {
-	margin-bottom: 5px;
+	margin: 5px 10px;
 }
 
 #top-nav {
 
+}
+
+aside {
+	width: 19%;
+	float:right;
+	margin: 0px;
 }
 
 #side-nav {
@@ -24,6 +30,13 @@ header {
 
 #search-box {
 	margin-bottom: 5px;
+}
+
+#content-wrapper {
+	position: relative;
+	top: -20px;
+	margin: auto;
+	width: 96%;
 }
 
 #main-body {
@@ -64,6 +77,10 @@ footer {
 #copyright {
 	width: 100%;
 	margin: 5px 0;
+}
+
+.clearFloat {
+	clear: both;
 }
 
 
