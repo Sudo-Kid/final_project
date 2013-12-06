@@ -1,65 +1,201 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Template</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
 
 		<style type="text/css">
 
 
-/*layout rules*/ 
+/* general layout rules */ 
 		body {
-			width: 1200px;
 			margin: 0 auto;
+			background: #e8e8e5;
+			font-family: 'Fenix', serif;
 		}
 
 		header {
-			margin: 5px 0;		
+			background: #252525;
+		}
+		
+		section {
+			background: #fff;
+			padding: 5px;
+			border-left: 2px solid #fdfae8;
+			border-right: 2px solid #f2efdb;
+			border-bottom: 2px solid #f2efdb;
+		}
+		
+		nav ul, ul li {
+			list-style-type: none;
+		}
+				
+		#main-wrapper {
+			margin: 0px;
+			background: #f7f4e1;
+		}
+		
+		#bcit-banner {
+			border-top: 2px solid #296b7c;
 		}
 
-		#bcit-banner {
-			margin-bottom: 5px;
+		#anchor-nav {
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			border-bottom-left-radius: 15px;
+			border-bottom-right-radius: 15px;
+			background: #8feaff;
+			margin: 8px;
+			border: 1px solid #76daf1;
+		}
+		
+		#anchor-nav ul li a {
+			text-decoration: none;
+			border-top: 1px solid #a8efff;
+			border-bottom: 1px solid #a8efff;
+			font-size: 80%;
 		}
 
 		#top-nav {
 
 		}
 
-		#side-nav {
-			width: 19%;
-			float:right;
-			margin: 0px 0 5px 5px;
+		aside {
 		}
 
 		#search-box {
-			margin-bottom: 5px;
 		}
 
+		#main-body {
+		}
+
+		footer {
+			width: 100%;
+		}
+
+		#associated-links{
+		}
+
+		#tools {
+		}
+
+		#more-info {
+		}
+
+		#copyright {
+		}
+
+		.clearFloat {
+			clear: both;
+		}
+
+		/* fonts */ 
+			.blue-text {
+				color: #75ddfa;
+			}
+			
+			.light-brown-text {
+				color: #b0a187;
+			}
+			
+			.brown-text {
+				color: #736b5d;
+			}
+			
+			header, #anchor-nav ul li a {
+				color: #fff;
+			}
+			
+			h2 {
+				font-size: 150%;
+			}
+			
+		/* end fonts */
+
+/*end layout rules*/ 		
+
+
+/*  screen  layout rules */
+		body {
+			width: 1200px;
+		}
+
+		header {
+			margin: 0px;
+			padding: 25px 15px 60px;
+		}
+				
+		section {
+			position: relative;
+			top: -20px;
+			margin: auto;
+			width: 96%;
+		}
+						
+		#main-wrapper {
+		}
+		
+		#bcit-banner {
+			margin: 5px 10px;
+			font-size: 300%;
+		}
+
+		#top-nav ul li a {
+			text-decoration: none;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			background: #434343;
+			padding: 12px;	
+			color: #979797;
+
+		}
+		
+		#top-nav ul li {
+			display: inline-block;
+			float: left;
+			margin-left: 10px;
+		}
+
+		aside {
+			width: 19%;
+			float:right;
+			margin: 0px;
+		}
+
+		#search-box {
+			margin-bottom: 0px 0px 5px;
+			height: 35px;
+		}
+		
 		#main-body {
 			width: 80%;
 			margin: 5px 5px 5px 0; 
 		}
 
 		footer {
-			width: 100%;
 			text-align: center;
 		}
 
 		#associated-links{
-			width: 33%;
 			display: inline-block;
 			float: left;
 		}
 
 		#tools {
-			width: 32%;
 			display: inline-block;
 		}
 
 		#more-info {
-			width: 33%;
 			display: inline-block;
 			float: right;
+		}
+		
+		#more-info, #associated-links, #tools {
+			width: 32%;
 		}
 
 		#copyright {
@@ -67,26 +203,21 @@
 			margin: 5px 0;
 		}
 
-
 /*end layout rules*/ 		
 
+
 /*template variables to be removed*/
-			#bcit-banner, #top-nav, #side-nav #search-box, #anchor-nav, section, #associated-links, #tools, #more-info, #copyright {
+			
+			#search-box {
 				border:1px solid black;
 				text-align: center;
 			}
 
-			#bcit-banner {
-				height:100px;
-			}
-
 			#main-body {
 				height: 400px;
+				border: 0px;
 			}
 
-			#anchor-nav {
-				height: 250px;
-			}
 /*end template variables to be removed*/
 
 
@@ -94,69 +225,107 @@
 	</head>
 	
 	<body>
-		<header>
-			<div id="bcit-banner">
+		<div id = "main-wrapper">
 
-				BCIT BANNER
+			<header>
+				<div id="bcit-banner">
 
-			</div> <!--end bcit-banner-->
+					BCIT
 
-			<nav id="top-nav">
+				</div> <!--end bcit-banner-->
 
-				TOP NAV
+				<nav id="top-nav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Lecture</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Forum</a></li>
+						<li><a href="#">About us</a></li>
+					</ul>
 
-			</nav> <!--end top-nav-->
-		</header>
+				</nav> <!--end top-nav-->
+			</header>
+		
+			<section >
+				
+				<aside>
+					<div id="search-box">
 
-		<div id="side-nav">
-			<div id="search-box">
+						SEARCH BAR
 
-				SEARCH BAR
+					</div><!--end search-box-->
 
-			</div><!--end search-box-->
+					<nav id="anchor-nav">
+						<ul>
+							<li><a href="#">Week 1</a></li>
+							<li><a href="#">Week 2</a></li>
+							<li><a href="#">Week 3</a></li>
+							<li><a href="#">Week 4</a></li>
+						</ul>
+					</nav><!--end anchor-nav-->	
 
-			<nav id="anchor-nav">
+				</aside>
 
-				ANCHOR NAV
-
-			</nav><!--end anchor-nav-->	
-
-
-		</div><!--end side-nav-->
-
-		<section id="main-body">
-
-			MAIN BODY
-
-		</section>
-
-		<footer>
-			<div id="associated-links">
-
-				ASSOCIATED LINKS
-
-			</div> <!--end associated-links-->
 			
+				<div id="main-body" >
 
-			<div id="tools">
+				MAIN BODY
+				
+				</div>
 
-				TOOLS
-
-			</div><!--end tools-->
+			</section>
 			
+				<div class = "clearFloat"></div>
+			
+			<footer >
+				<div id="associated-links" class="blue-text">
 
-			<div id="more-info">
+					Associated Links
+					<ul class ="brown-text">
+						<li>Any text Links here</li>
+						<li>Any text Links here</li>
+						<li>Any text Links here</li>
+						<li>Any text Links here</li>
+					</ul>
+						
+				</div> <!--end associated-links-->
+				
 
-				MORE INFO
+				<div id="tools" class="blue-text">
 
-			</div><!--end more-info-->
+					Tools
+					
+					<ul class ="brown-text"> 
+						<li>Any text tools here</li>
+						<li>Any text tools here</li>
+						<li>Any text tools here</li>
+						<li>Any text tools here</li>
+					</ul>
 
-			<div id="copyright">
+				</div><!--end tools-->
+				
 
-				COPYRIGHT
+				<div id="more-info" class="blue-text">
 
-			</div><!--end copyright-->
+					More Info
+					
+					<ul class ="brown-text">
+						<li>Any text Info here</li>
+						<li>Any text Info here</li>
+						<li>Any text Info here</li>
+						<li>Any text Info here</li>
+					</ul>
+					
+				</div><!--end more-info-->
 
-		</footer>		
+				<div id="copyright" class="light-brown-text" >
+
+					COPYRIGHT
+
+				</div><!--end copyright-->
+
+			</footer>
+
+		</div> <!--end main-wrapper-->
 	</body>
 </html>
