@@ -1,7 +1,39 @@
 /*box-model rules*/ 
-body {
-	width: 1200px;
-	margin: 0 auto;
+@media only screen and (max-width: 360px) {
+	body {
+		width: 340px;
+		margin: 0 auto;
+	}
+
+	#main-body {
+		width: 100%;
+		margin: 5px 0px 5px 0; 
+	}
+}
+
+@media only screen and (min-width: 361px) {
+	body {
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	aside {
+		width: 19%;
+		float:right;
+		margin: 0px;
+	}
+
+	#side-nav {
+		width: 19%;
+		float:right;
+		margin: 0px 0 5px 5px;
+	}
+
+	#main-body {
+		width: 80%;
+		margin: 5px 5px 5px 0; 
+	}
+
 }
 
 header {
@@ -16,17 +48,7 @@ header {
 
 }
 
-aside {
-	width: 19%;
-	float:right;
-	margin: 0px;
-}
 
-#side-nav {
-	width: 19%;
-	float:right;
-	margin: 0px 0 5px 5px;
-}
 
 #search-box {
 	margin-bottom: 5px;
@@ -39,10 +61,7 @@ aside {
 	width: 96%;
 }
 
-#main-body {
-	width: 80%;
-	margin: 5px 5px 5px 0; 
-}
+
 
 #team-banner, #welcome-text{
 	margin: 0 0 5px 0;
@@ -82,6 +101,8 @@ footer {
 .clearFloat {
 	clear: both;
 }
+
+
 
 
 /*end box-model rules*/ 
