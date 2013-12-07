@@ -7,28 +7,7 @@
 		<style type="text/css">
 
 
-/*template variables to be removed*/
-			#bcit-banner, #top-nav, #side-nav #search-box, #anchor-nav, section, #associated-links, #tools, #more-info, #copyright, article {
-				border:1px solid black;
-				text-align: center;
-			}
-
-			#bcit-banner {
-				height:100px;
-			}
-
-
-			#anchor-nav {
-				height: 250px;
-			}
-
-
-/*end template variables to be removed*/
-
-
-
-
-/*box-model rules*/ 
+/*layout rules*/ 
 		body {
 			width: 1200px;
 			margin: 0 auto;
@@ -61,14 +40,6 @@
 			margin: 5px 5px 5px 0; 
 		}
 
-		#team-banner, #welcome-text{
-			margin: 0 0 5px 0;
-		}
-
-		#updates {
-			margin: 0;
-		}
-
 		footer {
 			width: 100%;
 			text-align: center;
@@ -97,54 +68,29 @@
 		}
 
 
-/*end box-model rules*/ 	
+/*end layout rules*/ 		
 
-/*landing page rss feed*/
+/*template variables to be removed*/
+			#bcit-banner, #top-nav, #side-nav #search-box, #anchor-nav, section, #associated-links, #tools, #more-info, #copyright {
+				border:1px solid black;
+				text-align: center;
+			}
 
-		#updates h1 {
-			margin: 5px 0; 
-		}
-		
-		#rss-feed {
-			text-align: left;
-			margin: 0 5px;
-		}
+			#bcit-banner {
+				height:100px;
+			}
 
-		.rssHeader {
-			display: none;
-		}
+			#main-body {
+				height: 400px;
+			}
 
-		#rss-feed ul {
-			list-style: none;
-			padding: 0px;
-		}
-
-		#rss-feed li {
-			border-bottom: 1px solid black;
-		}
-
-		#rss-feed h4, #rss-feed p {
-			margin: 5px 0;
-		}
-
-
-/*end landing page rss feed*/
+			#anchor-nav {
+				height: 250px;
+			}
+/*end template variables to be removed*/
 
 
 		</style>
-
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-		
-		<script src="js/jquery.zrssfeed.min.js" type="text/javascript"></script>
-
-		<script type="text/javascript">
-			$(document).ready(function () {
-			  $('#rss-feed').rssfeed('http://a00892244.tumblr.com/rss', {
-			    limit: 2
-			  });
-			});
-		</script>
-
 	</head>
 	
 	<body>
@@ -179,39 +125,8 @@
 		</div><!--end side-nav-->
 
 		<section id="main-body">
-			<article id="team-banner">
-				
-				TEAM BANNER<br />
-				TEAM BANNER<br />
-				TEAM BANNER<br />
-				TEAM BANNER<br />
-				TEAM BANNER<br />
-				TEAM BANNER<br />
 
-	
-			</article>
-
-			<article id="welcome-text">
-
-				WELCOME TEXT</br>
-				WELCOME TEXT</br>
-				WELCOME TEXT</br>
-				WELCOME TEXT</br>
-				WELCOME TEXT</br>
-				WELCOME TEXT</br>
-				WELCOME TEXT</br>
-
-
-			</article>
-
-
-			<article id="updates">
-				<h1>News feed</h1>
-				<div id="rss-feed">
-
-				</div>
-
-			</article>
+			MAIN BODY
 
 		</section>
 
