@@ -1,238 +1,135 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Template</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-		<link type="text/css" 
-            rel="stylesheet" 
-            href="styles/boxmodel.css" />
+    <head>
+        <title>Comp-1950 Blog</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <meta name ="text:css host" content="" />
+         
+         
+        <link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet"  href="{text:css host}/styles/normalize.css">
 
         <link type="text/css" 
             rel="stylesheet" 
-            href="styles/styles.css" />    
+            href="{text:css host}/styles/boxmodel.css">
 
-		<style type="text/css">
+        <link type="text/css" 
+            rel="stylesheet" 
+            href="{text:css host}/styles/template.css">     
 
-            /*landing page rss feed*/
-            
-            #updates h1 {
-            	margin: 5px 0; 
-            }
-            
-            #rss-feed {
-            	text-align: left;
-            	margin: 0 5px;
-            }
-            
-            .rssHeader {
-            	display: none;
-            }
-            
-            #rss-feed ul {
-            	list-style: none;
-            	padding: 0px;
-            }
-            
-            #rss-feed li {
-            	border-bottom: 1px solid black;
-            }
-            
-            #rss-feed h4, #rss-feed p {
-            	margin: 5px 0;
-            }
-            
-            /*end landing page rss feed*/
-            
-            /*lecture nav rules*/
-            
-            #anchor-nav h1{
-            	margin: 5px 0;     
-            }
-            
-            #anchor-nav ul {
-            	list-style: none;
-            	padding: 0px;
-            }
-            
-            #anchor-nav .rssHeader {
-            	display: none;
-            }
-            
-            #anchor-nav li div {
-            	display: none;
-            }
-            
-            #anchor-nav li p {
-            	display: none;
-            }
-            
-            /*end lecture nav rules*/
+        <link type="text/css" 
+            rel="stylesheet" 
+            href="{text:css host}/styles/styles.css"> 
 
-            /*box-model rules*/ 
-            body {
-            	width: 1200px;
-            	margin: 0 auto;
-            }
-            
-            header {
-            	margin: 5px 0;		
-            }
-            
-            #bcit-banner {
-            	margin-bottom: 5px;
-            }
-            
-            #top-nav {
-            
-            }
-            
-            #side-nav {
-            	width: 19%;
-            	float:right;
-            	margin: 0px 0 5px 5px;
-            }
-            
-            #search-box {
-            	margin-bottom: 5px;
-            }
-            
-            #main-body {
-            	width: 80%;
-            	margin: 5px 5px 5px 0; 
-            }
-            
-            #team-banner, #welcome-text{
-            	margin: 0 0 5px 0;
-            }
-            
-            #updates {
-            	margin: 0;
-            }
-            
-            footer {
-            	width: 100%;
-            	text-align: center;
-            }
-            
-            #associated-links{
-            	width: 33%;
-            	display: inline-block;
-            	float: left;
-            }
-            
-            #tools {
-            	width: 32%;
-            	display: inline-block;
-            }
-            
-            #more-info {
-            	width: 33%;
-            	display: inline-block;
-            	float: right;
-            }
-            
-            #copyright {
-            	width: 100%;
-            	margin: 5px 0;
-            }
-            
-            
-            /*end box-model rules*/ 
-
-/*template variables to be removed*/
-			#bcit-banner, #top-nav, #side-nav #search-box, #anchor-nav, section, #associated-links, #tools, #more-info, #copyright, article {
-				border:1px solid black;
-				text-align: left;
-			}
-
-			#bcit-banner {
-				height:100px;
-			}
+        <link rel="stylesheet" 
+            href="{text:css host}/styles/print.css" 
+            media="print">  
 
 
-			#anchor-nav {
-                height:200px;
-			}
 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        
+        <script src="http://students.thenet.ca/elambke/js/jquery.zrssfeed.min.js" type="text/javascript"></script>
 
-/*end template variables to be removed*/
+        <script src="/js/accordion.js" type="text/javascript"></script>
 
-		</style>
+        <script type="text/javascript">
+            $(document).ready(function () {
+              $('#rss-feed').rssfeed('http://blog-1950.tumblr.com/tagged/blog/rss', {
+                limit: 3
+              });
+            });
+        </script>   
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-		
-		<script src="http://students.thenet.ca/elambke/js/jquery.zrssfeed.min.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+        <div id = "main-wrapper">
 
-		<script type="text/javascript">
-			$(document).ready(function () {
-			  $('#rss-feed').rssfeed('http://blog-1950.tumblr.com/tagged/blog/rss', {
-			    limit: 12
-			  });
-			});
-		</script>
-		
-		<script type="text/javascript">
-			$(document).ready(function () {
-			  $('#anchor-nav').rssfeed('http://blog-1950.tumblr.com/tagged/lecture/rss', {
-			    limit: 12
-			  });
-			});
-		</script>
+            <header>
+                <div id="bcit-banner">
 
-	</head>
-	
-	<body>
-		<header>
-			<div id="bcit-banner">
+                    BCIT
 
-				BCIT BANNER
+                </div> <!--end bcit-banner-->
 
-			</div> <!--end bcit-banner-->
+                <nav id="top-nav">
+                    
+                    <ul>
+                        <li>
+                            <a href="#">Lectures</a>
+                            <ul>
+                                <li><a href="lecture1">Lecture 1</a></li>
+                                <li><a href="lecture2">Lecture 2</a></li>
+                                <li><a href="lecture3">Lecture 3</a></li>
+                                <li><a href="lecture4">Lecture 4</a></li>
+                                <li><a href="lecture5">Lecture 5</a></li>
+                                <li><a href="lecture6">Lecture 6</a></li>
+                                <li><a href="lecture7">Lecture 7</a></li>
+                                <li><a href="lecture8">Lecture 8</a></li>
+                                <li><a href="lecture9">Lecture 9</a></li>
+                                <li><a href="lecture10">Lecture 10</a></li>
+                                <li><a href="lecture11">Lecture 11</a></li>
+                                <li><a href="lecture12">Lecture 12</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="forums">Forums</a></li>
+                        <li>
+                            <a href="artifacts">Artifacts</a>
+                            <ul>
+                                <li><a href="rationale">Rationale</a></li>
+                                <li><a href="sitemap">Sitemap</a></li>
+                                <li><a href="wireframe">Wirefram</a></li>
+                                <li><a href="artifacts_supplied_by_alistarir">Artifacts Supplied by Alistarir</a></li>
+                            </ul>
+                        </li>
+                    </ul>
 
-			<nav id="top-nav">
+                </nav> <!--end top-nav-->
+            </header>
+        
 
-				TOP NAV
+            <div id="content-wrapper">  
+                <aside>
+                    <div id="search-box">
 
-			</nav> <!--end top-nav-->
-		</header>
+                        <form>
+                            <input type="text" name="search" value="" placeholder="Search">
+                            <input type="submit" value="Search">
+                        </form>
 
-		<div id="side-nav">
-			<div id="search-box">
+                    </div><!--end search-box-->
 
-				SEARCH BAR
+                    <nav id="anchor-nav">
+                        <div class="accordion"> <!-- Starting Accordion -->
+                            <h3>Lecture 1</h3>
+                            <div> <!-- Lecture 1 Div -->
+                                <p>Content here</p>
+                            </div> <!-- End Lecture 1 Div -->
+                            <h3>Lecture 2</h3>
+                            <div> <!-- Lecture 2 Div -->
+                                <p>Content here</p>
+                            </div> <!-- End Lecture 2 Div -->
+                            <h3>Lecture 3</h3>
+                            <div> <!-- Lecture 3 Div -->
+                                <p>Content Here</p>
+                            </div> <!-- End Lecture 3 Div -->
+                            <h3>Lecture 4</h3>
+                            <div> <!-- Lecture 4 Div -->
+                                <p>Content here</p>
+                            </div> <!-- End Lecture 4 Div -->
+                        </div><!-- Clossing Accordion -->
+                    </nav><!--end anchor-nav--> 
 
-			</div><!--end search-box-->
+                </aside>
 
-			<nav id="anchor-nav">
+        <section id="main-body">
+        
 
-				ANCHOR NAV
-
-			</nav><!--end anchor-nav-->	
-
-
-		</div><!--end side-nav-->
-
-		<section id="main-body">
-		
-		    {block:IndexPage}
-		    
-			<article id="team-banner">
-				
-				TEAM BANNER<br />
-				TEAM BANNER<br />
-				TEAM BANNER<br />
-				TEAM BANNER<br />
-				TEAM BANNER<br />
-				TEAM BANNER<br />
-
-	
-			</article>
-			
-			{/block:IndexPage}
-
-			<article id="welcome-text">
-            {block:PermalinkPage}
+            <article id="welcome-text">
+            
                 {block:Posts}
                 <article class="{PostType} post">
                 
@@ -247,12 +144,12 @@
                 {/block:ifShowHeader}
                 
                 {block:Text}
-
-                        {Body}
+                    <h4>{Title}</h2>
+                    {Body}
                 {/block:Text}
 
                 {block:Photo}
-                    <h4>asldfkjlaskdjf</h4>
+                    <h4>{Title}</h2>
                     <figure>
                        <h4>Photo</h4>
                         <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
@@ -263,7 +160,7 @@
                 
                 
                 {block:Photoset}
-                    <h4>asldfkjlaskdjf</h4>
+                    <h4>{Title}</h2>
                     <figure>
                        <h4>Photo</h4>
                         {Photoset-500}
@@ -272,68 +169,118 @@
 
                 {/block:Photoset}
                 
-                <footer>
+                {block:TagPage}
+                        <h2>Posts tagged "{Tag}"</h2>
+                {/block:TagPage}
+
+                
+                <footer id="blog-footer">
                     {block:HasTags} 
-                    <h3>Tags!!!!</h3>
+                    <div id="tumblrtags">
                     <ul class="tags">
                     {block:Tags}
-                        <li>{Tag}</li>
+                        <li><a href="{TagURL}">#{Tag}</a></li>
                     {/block:Tags}
                     </ul>
                     {/block:HasTags}
-                    
-                    <br />
+                    </div>    
                     <p>Posted on {Month} {DayOfMonth} by {PostAuthorName}</p>
          
                    </footer> 
                 </article>
                 {/block:Posts}
-            {/block:PermalinkPage}
+          
 
 
-			</article>
 
-            {block:IndexPage}
+            </article>
 
-			<article id="updates">
-				<h1>News feed</h1>
-				<div id="rss-feed">
+            {block:Pagination}
+            <div id="pagination">
+                {block:PreviousPage} 
+                    <a id="previouspage" href="{PreviousPage}">&lt; Previous</a>
+                {/block:PreviousPage}
+                
+                {block:JumpPagination length="5"}
+                        {block:CurrentPage}
+                            <span class="current_page">{PageNumber}</span>
+                        {/block:CurrentPage}
+    
+                        {block:JumpPage}
+                            <a class="jump_page" href="{URL}">{PageNumber}</a>
+                        {/block:JumpPage}
+                    {/block:JumpPagination}
+                
+                {block:NextPage}
+                    <a id="nextpage" href="{NextPage}">Next &gt;</a>
+                {/block:NextPage}
+            </div>
+            {/block:Pagination}
 
-				</div>
+        </section>
 
-			</article>
-			
-		    {/block:IndexPage}
+            </div>
+            
+            <div class = "clearFloat"></div>
+            
+            <footer >
+                <div id="associated-links" class="blue-text">
 
-		</section>
+                    Associated Links
+                    <ul class ="brown-text">
+                        <li>Any text Links here</li>
+                        <li>Any text Links here</li>
+                        <li>Any text Links here</li>
+                        <li>Any text Links here</li>
+                    </ul>
+                        
+                </div> <!--end associated-links-->
+                
 
-		<footer>
-			<div id="associated-links">
+                <div id="tools" class="blue-text">
 
-				ASSOCIATED LINKS
+                    Tools
+                    
+                    <ul class ="brown-text"> 
+                        <li>Any text tools here</li>
+                        <li>Any text tools here</li>
+                        <li>Any text tools here</li>
+                        <li>Any text tools here</li>
+                    </ul>
 
-			</div> <!--end associated-links-->
-			
+                </div><!--end tools-->
+                
 
-			<div id="tools">
+                <div id="more-info" class="blue-text">
 
-				TOOLS
+                    More Info
+                    
+                    <ul class ="brown-text">
+                        <li>Any text Info here</li>
+                        <li>Any text Info here</li>
+                        <li>Any text Info here</li>
+                        <li>Any text Info here</li>
+                    </ul>
+                    
+                </div><!--end more-info-->
 
-			</div><!--end tools-->
-			
+                <div id="copyright" class="light-brown-text" >
 
-			<div id="more-info">
+                    COPYRIGHT 2013 Lollysource Comp1950 Group&copy;
 
-				MORE INFO
+                    <section id="css_validator">
+                        <a href="http://www.w3.org/html/logo/">
+                            <img src="http://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-semantics.png" 
+                                width="197" height="64" 
+                                alt="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, and Semantics" 
+                                title="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, and Semantics">
+                        </a>
+                    </section>
 
-			</div><!--end more-info-->
+                </div><!--end copyright-->
 
-			<div id="copyright">
+            </footer>
 
-				COPYRIGHT
-
-			</div><!--end copyright-->
-
-		</footer>		
-	</body>
+        </div> <!--end main-wrapper-->
+    </body>
 </html>
