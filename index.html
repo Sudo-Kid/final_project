@@ -7,20 +7,20 @@
 		<link type="text/css" rel="stylesheet"	href="/styles/normalize.css">
 
 		<link type="text/css" 
-            rel="stylesheet" 
-            href="styles/boxmodel.css">
+			rel="stylesheet" 
+			href="styles/boxmodel.css">
 
-        <link type="text/css" 
-            rel="stylesheet" 
-            href="styles/template.css">     
+		<link type="text/css" 
+			rel="stylesheet" 
+			href="styles/template.css">     
 
-        <link type="text/css" 
-            rel="stylesheet" 
-            href="styles/styles.css"> 
+		<link type="text/css" 
+			rel="stylesheet" 
+			href="styles/styles.css"> 
 
-        <link rel="stylesheet" 
-        	href="styles/print.css" 
-        	media="print">  
+		<link rel="stylesheet" 
+			href="styles/print.css" 
+			media="print">  
 
 
 
@@ -28,12 +28,19 @@
 		
 		<script src="http://students.thenet.ca/elambke/js/jquery.zrssfeed.min.js" type="text/javascript"></script>
 
-		<script src="/js/accordion.js" type="text/javascript"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+		<script type="text/javascript"> 
+		// Added this to the header because there was no reason to have this in a file by itself.
+			$(function() {
+			    $( "#accordion" ).accordion();
+			});
+		</script>
 
 		<script type="text/javascript">
 			$(document).ready(function () {
 			  $('#rss-feed').rssfeed('http://blog-1950.tumblr.com/tagged/blog/rss', {
-			    limit: 3
+				limit: 3
 			  });
 			});
 		</script>   
@@ -99,26 +106,75 @@
 					</div><!--end search-box-->
 
 					<nav id="anchor-nav">
-						<div class="accordion"> <!-- Starting Accordion -->
-							<h3>Lecture 1</h3>
-							<div> <!-- Lecture 1 Div -->
-						  		<p>Content here</p>
-							</div> <!-- End Lecture 1 Div -->
-							<h3>Lecture 2</h3>
-							<div> <!-- Lecture 2 Div -->
-						    	<p>Content here</p>
-							</div> <!-- End Lecture 2 Div -->
-							<h3>Lecture 3</h3>
-							<div> <!-- Lecture 3 Div -->
-						  		<p>Content Here</p>
-							</div> <!-- End Lecture 3 Div -->
-							<h3>Lecture 4</h3>
-							<div> <!-- Lecture 4 Div -->
-						  		<p>Content here</p>
-							</div> <!-- End Lecture 4 Div -->
-						</div><!-- Clossing Accordion -->
-					</nav><!--end anchor-nav-->	
+						
+						<!-- Starting Accordion -->
+						<div id="accordion">
+							
+							<!-- Starting Section -->
+							<h3>Section 1</h3>
+							<div> <!-- Start Section 1 Div -->
+								<!-- Start Content Here -->
+								<p>
+									Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+									ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+									amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+									odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+								</p>
+							</div> <!-- End Start Section 1 Div -->
+							<!-- End Section -->
 
+							<!-- Starting Section -->
+							<h3>Section 2</h3>
+							<div> <!-- Start Section 2 Div -->
+								<!-- Start Content Here -->
+								<p>
+									Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+									purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+									velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+									suscipit faucibus urna.
+								</p>
+							</div> <!-- End Start Section 2 Div -->
+							<!-- End Section -->
+
+							<!-- Starting Section -->
+							<h3>Section 3</h3>
+							<div> <!-- Start Section 3 Div -->
+								<!-- Start Content Here -->
+								<p>
+									Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+									Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+									ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+									lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+								</p>
+								<ul>
+									<li>List item one</li>
+									<li>List item two</li>
+									<li>List item three</li>
+								</ul>
+							</div> <!-- End Start Section 3 Div -->
+							<!-- End Section -->
+
+							<!-- Starting Section -->
+							<h3>Section 4</h3>
+							<div> <!-- Start Section 4 Div -->
+								<!-- Start Content Here -->
+								<p>
+									Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+									et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+									faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+									mauris vel est.
+								</p>
+								<p>
+									Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+									Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+									inceptos himenaeos.
+								</p>
+							</div> <!-- End Start Section 4 Div -->
+							<!-- End Section -->
+
+						</div>
+						<!-- Clossing Accordion -->
+					</nav>
 				</aside>
 
 			
