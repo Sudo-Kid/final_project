@@ -2,4 +2,7 @@
 	display:none;
 }
 
-
+a:link:after, a:visited:after{
+   content: " (URL: " attr(href) ") ";
+   font-size: 90%;
+}
