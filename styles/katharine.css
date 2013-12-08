@@ -1,0 +1,32 @@
+article {border: 3px solid #b0a187;
+background-color: #75ddfa;
+margin-top: 10px;}
+
+#sitemap{
+background-color: #75ddfa;
+background-image: url(sitemap.jpg);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+
+#sitemap img {padding-left:10px;
+padding-bottom:10px;}
+
+#rationale h2, h3, p {text-align:left;
+color: black;
+padding: 0 10px 10px 10px;}
+
+
+
+#sitemap h2, h3, p {text-align:left;
+color: black;
+padding: 0 10px 10px 10px;}
+
+#wireframe img {padding-left:10px;
+padding-bottom:10px;}
+#wireframe ul {list-style-type:none;}
+
+
+
+#project_details{clear:both;}
