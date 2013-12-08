@@ -32,8 +32,11 @@
 
 		<script type="text/javascript"> 
 		// Added this to the header because there was no reason to have this in a file by itself.
-			$(function() {
-			    $( "#accordion" ).accordion();
+			 $(function() {
+				$( "#accordion" ).accordion({
+					heightStyle: "content",
+					collapsible: true
+				});
 			});
 		</script>
 
