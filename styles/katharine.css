@@ -1,4 +1,6 @@
-article {border: 3px solid #b0a187;
+
+
+#rationale, #sitemap, #wireframe, #project_details, #aboutus {border: 3px solid #b0a187;
 background-color: #75ddfa;
 margin-top: 10px;}
 
@@ -17,7 +19,16 @@ padding-bottom:10px;}
 color: black;
 padding: 0 10px 10px 10px;}
 
+#rationale a {font-weight:bold;
+color:blue;}
 
+#rationale_page h2{
+background-color:#B0a187;
+padding-left: 10px;}
+
+#rational_page p {width:80%;
+padding-left:15px;
+}
 
 #sitemap h2, h3, p {text-align:left;
 color: black;
