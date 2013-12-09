@@ -34,10 +34,35 @@ padding-left:15px;
 color: black;
 padding: 0 10px 10px 10px;}
 
-#wireframe img {padding-left:10px;
-padding-bottom:10px;}
+#wireframe img {padding-left:20px;
+padding-bottom:10px;
+height: 155px;
+width:225px;}
+
+#wireframe a {display:inline;
+padding-left:25px;}
 #wireframe ul {list-style-type:none;}
 
-
+#dl_icon {position:relative;
+top: 0px;
+left:110px;
+}
 
 #project_details{clear:both;}
+
+#project_details img {padding-left: 10px;
+padding-bottom: 15px;}
+
+
+#aboutus img {
+padding-left: 10px;
+padding-bottom: 15px;
+height: 155px;
+width:225px;}
+
+
+
+
+
+
+		
