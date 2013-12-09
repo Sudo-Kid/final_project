@@ -47,15 +47,17 @@
 	border: 1px dashed;
 }
 
-.content-block p {
+.dashed-box  {
 	margin-top: 10px;
 	border: 1px dashed;
-	padding: 5px 10px;
+	padding: 0px;
 }
 
 .content-block  header h1 {
+	display: block;
 	background: #b0a187;
 	padding: 0px;
+	margin: 0px;
 	text-align: left;
 	font-size: 110%;
 	
