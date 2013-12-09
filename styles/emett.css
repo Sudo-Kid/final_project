@@ -144,36 +144,3 @@
 /****************************************
 		End Side Accordion
 *****************************************/
-
-/****************************************
-			Footer
-*****************************************/
-
-footer a:link {
-	color: #75DEF1;
-}
-
-footer a:visited {
-	color: #75DEF1;
-}
-
-footer a:hover {
-	color: #97979C;
-}
-
-footer a:active {
-}
-
-footer small {
-	text-align: left;
-}
-
-#css_validator {
-	background-color: #F7F4E1;
-	float: right;
-	width: 100%;
-} 
-
-/****************************************
-			Footer
-*****************************************/
