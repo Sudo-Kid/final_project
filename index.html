@@ -46,6 +46,35 @@
 				limit: 3
 			  });
 			});
+
+			$(document).ready(function () {
+				$('#rss-feed').rssfeed('http://blog-1950.tumblr.com/tagged/blog/rss',{},function(e) {
+
+					$('h4 a',e).each(function(i) {
+						$(this).css({
+							"text-decoration" : "none",
+							"font-size" : "110%",
+							"color" : "#000"
+						});
+						$(this).hover(
+							function (){
+								$(this).css("font-style", "italic");
+							},
+							function (){
+								$(this).css("font-style", "normal");
+							}
+						);
+					});
+
+					$('.rssRow div',e).each(function(i) {
+						$(this).css({
+							"font-size" : "80%",
+							"color" : "#736b5d"
+						});
+					});
+
+				});
+			});			
 		</script>   
 
 	</head>
@@ -63,7 +92,7 @@
 				<nav id="top-nav">
 
 					<div id="top-nav-div"> <!-- This will will be used in the mobile version -->
-						<h1 id="top-nav-div"><a href="">Nav</a></h1> <!-- This will be the button -->
+						<h1><a href="">Nav</a></h1> <!-- This will be the button -->
 					</div> <!-- End top-nav-div -->
 					
 					<ul>
@@ -164,25 +193,129 @@
 
 			
 				<section id="main-body">
-					<article id="banner">
-						<figure>
-						<img src="images/bcit.jpg" />
-						</figure>			
-					</article>
+					<header>
+						<figure><img src="images/bcit.jpg" alt="banner" /></figure>			
+						<h1>Winter 2013 - welcome!</h1>
+					</header>
 
 					<article id="updates">
 						<header  class="blue-text">News feed</header>
 						<div id="rss-feed"></div>
 					</article>
 
-					<article id="welcome-text">
-						<header class="blue-text">Intermediate Web Design & Development Project</header>
-						<p>Proposal for a redesign of a COMP1950 Student Website. </p>
-						<footer>By the Lollysource team</footer>
-						
-					</article>
+		<article class="intro">
+		<p>COMP 1950 continues fundamental principles and techniques for
+		designing and developing effective web sites. <a href="http://www.bcit.ca/study/courses/comp1950">Get more details</a>.</p>
+
+		<p>Check the <a href="http://www.bcit.ca/study/courses/comp1950">course
+		catalogue at BCIT</a> to see when this course is running next.</p>
+		</article>
+		
+		<article class="content-block">
+		<header><h1>the agenda for week 1 is the following:</h1></header>
+		<p><ul>
+			<li>about this course (outline, administrivia, assignments, etc)</li>
+			<li>introductions (me, you)</li>
+			<li>web space (thenet.ca)</li>
+			<li>some expectations &amp; reminders</li>
+			<li>today's assignment</li>
+		</ul></p>
+		</article>
+
+		<article class="content-block">
+			<header><h1>about this course</h1></header>
+			<p><strong>Official</strong> details about the who, what, where and how are located in the <a href="http://www.bcit.ca/study/courses/comp1950">course info</a> section</p>
+			<p>Some more information you might like to know:
+
+			<ul>
+			<li>More theory than in 1850</li>
+			<li>Still a fair amount of practical experience</li>
+			<li>Hands on coding and working in teams</li>
+			<li>Real-life methods taken from developers</li>
+			<li>Class and homework exercises</li>
+
+			<li><ul>
+					<li>Assignments/homework: 20%</li>
+					<li>Quiz/Midterm: 30%</li>
+					<li>Project: 25%</li>
+					<li>Final Exam: 25%</li>
 
 
+			</ul></li></ul>
+			</p>
+		</article>
+		
+		<article class="content-block">
+			<header><h1>Assignments</h1></header>
+			<p>
+			<ul>
+				<li>Generally given during the lab portion, due the following week</li>
+				<li>Linked from your COMP 1950 page (more on that later)</li>
+			</ul>
+
+			<h2>Quizzes &amp; final exam</h2>
+
+			All quizzes will feature <em>at least</em> one, and <em>possibly</em> all of the following question types:
+			<ul>
+
+			<li>fill-in-the-blanks</li>
+			<li>short answer</li>
+			<li>matching</li>
+			<li>code correction</li>
+			<li>code writing</li>
+			</ul></p>
+		</article>
+
+		<article class="content-block">
+		<header><h1>expectations &amp; reminders</h1></header>
+		
+
+		<p>This course is about Web Development.  This means you should conduct yourself as Web Developers!</p>
+		<p>What does this mean? It means you should understand the following:</p>
+
+		<p>
+			<dl>
+				<dt>FTP</dt>
+				<dd>If you don't understand FTP (File Transfer Protocol) right now, that's ok. After week 2 - don't ask me. This is a <strong>required</strong> skill</dd>
+				
+				<dt>File/Folder Names</dt>
+				<dd>While it is technically possible, my recommendation is that you do NOT use capital letters, and I <strong>require</strong> that you do NOT use spaces in your file or folder names. Special Characters (those characters over the numbers on your keyboard) just won't work.</dd>
+				
+				<dt>Web Space</dt>
+				<dd>The student web space is: <strong>students.thenet.ca/(student_name)</strong><br>
+					Notice that there is <strong>no www</strong> at the front</dd>
+					
+				<dt>Upkeep</dt>
+				<dd>Each week, you should have your course web space (we'll set up the course web site later) up to date with assignments, exercises, etc.</dd>
+				
+				<dt>Navigation</dt>
+				<dd>Please try to make things as easy to find as possible</dd>
+				
+					<dt>No class October 22 or 24</dt>
+				<dd>There will be no classes on October 22 or 24</dd>				
+				
+			</dl>
+		</p>
+		</article>
+
+<article class="content-block">
+<header><h1>Other subjects?  Tailor the course!</h1></header>
+<p>
+<ul>
+
+	<li>What would you <strong>like</strong> to learn about?</li>
+	<li>What are you most interested in learning?</li>
+	<li>What skills would you like to acquire?</li>
+	<li>Are there subjects not covered here?</li>
+
+	</ul>
+
+<h2>Let's get started!</h2>
+
+Let's go onto <a href="week1/">week one</a>
+</p>
+
+</article>
 
 				</section>
 

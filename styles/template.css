@@ -40,7 +40,7 @@
 			border: 1px solid #76daf1;
 		}
 		
-		#anchor-nav ul li a {
+		#anchor-nav #accordion  h3 a {
 			text-decoration: none;
 			border-top: 1px solid #a8efff;
 			border-bottom: 1px solid #a8efff;
@@ -92,7 +92,7 @@
 			color: #736b5d;
 		}
 		
-		header, #anchor-nav ul li a {
+		header, #anchor-nav #accordion  h3 a {
 			color: #fff;
 		}
 		
@@ -110,7 +110,7 @@
 
 		header {
 			margin: 0px;
-			padding: 25px 15px 60px;
+			padding: 25px 15px 110px;
 		}
 				
 						

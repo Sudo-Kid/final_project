@@ -20,3 +20,43 @@
 	width: 95%;
 }
 
+#rss-feed {
+	width: 90%;
+	padding: 10px;
+}
+
+#top-nav {
+	position: relative;
+}
+
+#main-body header {
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	color: #000;
+}
+
+#main-body header h1 {
+	text-align: center;
+	padding: 5px;
+}
+
+.intro {
+	background: #B0F1FE;
+	padding: 5px;
+	border: 1px dashed;
+}
+
+.content-block p {
+	margin-top: 10px;
+	border: 1px dashed;
+	padding: 5px 10px;
+}
+
+.content-block  header h1 {
+	background: #b0a187;
+	padding: 0px;
+	text-align: left;
+	font-size: 110%;
+	
+}
