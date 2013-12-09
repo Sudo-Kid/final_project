@@ -16,6 +16,7 @@
 }
 
 #banner figure img {
+	margin: 0px;
 	padding: 0px;
 	width: 95%;
 }
@@ -29,7 +30,7 @@
 	position: relative;
 }
 
-#main-body header {
+#main-body header{
 	margin: 0px;
 	padding: 0px;
 	background: #fff;
@@ -55,10 +56,20 @@
 
 .content-block  header h1 {
 	display: block;
-	background: #b0a187;
+	background: #f7f4e1;
 	padding: 0px;
 	margin: 0px;
-	text-align: left;
-	font-size: 110%;
-	
+	font-size: 110%;	
+}
+
+#main-body ul, p, h2, dd, dt {
+	padding: 0px 40px;
+}
+
+#main-body h2 {
+	font-size: 115%;
+}
+
+#main-body ul li {
+	list-style-type:circle;
 }
