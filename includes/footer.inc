@@ -1,0 +1,62 @@
+<footer >
+	<div id="associated-links" class="blue-text">
+
+		Associated Links
+		<ul class ="brown-text">
+			<li><a href="http://www.bcit.ca/study/courses/comp1950">BCIT Comp1950</a></li>
+			<li><a href="https://my.bcit.ca">My BCIT</a></li>
+			<li><a href="http://www.bcit.ca">BCIT Home</a></li>
+			<li><a href="http://thenet.ca/1950">Comp1950 Home</a></li>
+		</ul>
+			
+	</div> <!--end associated-links-->
+	
+
+	<div id="tools" class="blue-text">
+
+		Tools
+		
+		<ul class ="brown-text"> 
+			<li><a href="https://getfirebug.com/">Firebug</a></li>
+			<li><a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer</a></li>
+			<li><a href="https://developer.mozilla.org/en-US/">Mozilla MDN</a></li>
+			<li><a href="https://github.com">GitHub</a></li>
+			<li><a href="http://git-scm.com/">Git</a></li>
+		</ul>
+
+	</div><!--end tools-->
+	
+
+	<div id="more-info" class="blue-text">
+
+		More Info
+		
+		<ul class ="brown-text">
+			<li><a href="forum.lollysource.net">Forum</a></li>
+			<li><a href="blog.lollysource.net">Blog</a></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+		</ul>
+		
+	</div><!--end more-info-->
+
+	<div id="copyright" class="light-brown-text" >
+
+		<small>COPYRIGHT 2013 Lollysource Comp1950 Group&copy;</small>
+
+		<section id="css_validator">
+			<a href="http://www.w3.org/html/logo/">
+				<img src="http://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-semantics.png" 
+					width="197" height="64" 
+					alt="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, and Semantics" 
+					title="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, and Semantics">
+			</a>
+		</section>
+
+	</div><!--end copyright-->
+
+</footer>
+
+</div> <!--end main-wrapper-->
+</body>
+</html>
