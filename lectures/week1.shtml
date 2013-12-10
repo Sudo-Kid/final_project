@@ -1,4 +1,4 @@
-<!--#include virtual="/includes/header.shtml" -->
+<!-- This is now Valide HTML5 -->
 <header>
 	<h1 id="titlebar">comp 1950 &gt; week 1</h1>
 </header>
@@ -234,4 +234,3 @@
 		</ul>
 	</section>
 </article>
-<!--#include virtual="/includes/footer.inc" -->
