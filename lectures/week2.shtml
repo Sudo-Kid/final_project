@@ -952,4 +952,4 @@
 	</article>
 
 </section>
-<!--#include virtual="../includes/footer.inc" -->
+<!--#include virtual="../includes/footer.shtml" -->
