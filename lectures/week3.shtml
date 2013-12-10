@@ -1,13 +1,14 @@
-<!--#include virtual="/includes/header.shtml” -->
-<article>
-	<h1 id="titlebar">
+<!--#include virtual="../includes/header.shtml" -->
+<section  id="main-body">
+	<header id="titlebar">
+	<h1>
          comp 1950 &gt; week 3: html5 &amp; seo
     </h1>
 
+	<article class="content-block  dashed-box">
     <h2>
        agenda
     </h2>
-    <div class="content-block">
        <ul>
 			  <li>New development in web developments</li>
 			  <li>Referer</li>
@@ -18,10 +19,10 @@
 
        </ul>
 
-    </div>
+    </article>
 
+	<article class="content-block  dashed-box">
 	<h2>New development in web development</h2>
-	<div class="content-block">
 		<ul>
 			<li>Always trying to make the web more accessible and publishable</li>
 			<li>Tools for doing this abound!</li>
@@ -41,11 +42,10 @@
 			<li>Where do web developers fit in?</li>
 			<li>Let's <strong>discuss this</strong></li>
 		</ul>
-	</div>
+	</article>
 
-
+	<article class="content-block  dashed-box">
 	<h2>Referer</h2>
-	<div class="content-block">
 		<ul>
 			<li>Validators can accept requests from existing URLs</li>
 			<li>Rather than creating a link each time, you can reuse this one: <a href="http://validator.w3.org/check?uri=referer">Referer</a></li>
@@ -54,31 +54,30 @@
 			<li>Remember, this is a <strong>web development course</strong></li>
 			
 		</ul>
-	</div>
+	</article>
 	         
-
+	<article class="content-block  dashed-box">
 	<h2>Week 2 Homework: XHTML</h2>
-	<div class="content-block">
 		<ul>
 			<li>Let's take a look at the homework for last week</li>
 			<li><a href="http://www.thenet.ca/1950/week2/exercises/content.html">Finnegan page</a> in XHTML</li>
 			<li><strong>Discuss:</strong> Was building it in XHTML hard? Why or why not?</li>
 			<li><strong>Discuss: </strong>Is knowing XHTML a useful skill? Why or why not?</li>
 		</ul>	
-	</div>
+	</article>
 
+	<article class="content-block  dashed-box">
 	<h2>Week 2 Homework: HTML5</h2>
-	<div class="content-block">
 		<ul>
 			<li>Let's take a look at the homework for last week</li>
 			<li><a href="http://www.thenet.ca/1950/week2/exercises/content.html">Finnegan page</a> in HTML5</li>
 			<li><strong>Discuss:</strong> Was building it in HTML5 hard? Why or why not?</li>
 		</ul>	
-	</div>
+	</article>
 
 
+	<article class="content-block  dashed-box">
 	<h2>SEO Basics</h2>
-	<div class="content-block">
 		<h3>Search Engine Optimization</h3>
 		<ul>
 		<li>SEO ties into both semantics and standards very closely</li>
@@ -96,13 +95,12 @@
 			<li>What does it mean to clients?</li>
 			<li>What does it mean for Web Developers?</li>
 		</ul>
-	</div>
+	</article>
 
 
 
-
+<article class="content-block  dashed-box">
 	<h2>Best Practices</h2>
-	<div class="content-block">
 
 		<h3>Great documents on SEO</h3>
 		<p>Google's own <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf">Search Engine Optimization</a> guide</p>
@@ -138,23 +136,20 @@
 		<h3>...and LOTS more!</h3>
 
 
-	</div>
+	</article>
 
+	<article class="content-block  dashed-box">
 	<h2>Your Realtor Site</h2>
-	<div class="content-block">
 		<h3>Group exercise</h3>
 		<p>Get in groups of 3 and look at each other's Realtor pages.</p>
 		<p>Based on our examination of SEO Basics, determine what kinds of things you could change to improve the page</p>
 		<p>Choose the <strong>TOP THREE</strong> things your group would suggest for improving your SEO</p>
 		<p>Present to the class</p>
-	</div>
+	</article>
 
 
-
-
-
+	<article class="content-block  dashed-box">
 	<h2><a name="assignment">Week 3 Homework: Realtor Site</a></h2>
-	<div class="content-block">
 		<p>You will be developing your Realtor Page into a Site!</p>
 		<p>Don't worry about the layout as much (more on that next week), but focus on the parts you can change right now: the content. This is the most important part of any site.</p>
 		<p>Using the principles of:</p>
@@ -181,10 +176,10 @@
 		<p>Covers everything we have discussed up to and including week 3</p>
 		<p>Read these notes and your own notes. Review your homework assignments</p>
 
-	</div>
+	</article>
 
 	
 
 
-</article>
-<!--#include virtual="/includes/footer.inc" -->
+</section>
+<!--#include virtual="../includes/footer.inc" -->

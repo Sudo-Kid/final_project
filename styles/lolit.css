@@ -1,4 +1,4 @@
-#welcome-text header , #updates header{
+#welcome-text header , #updates header, header #title-bar{
 	background: #fff;
 	font-size: 130%;
 	padding: 5px;
@@ -13,6 +13,11 @@
 	text-align: right;
 	color: #6A6C6C;
 	font-size: 80%;
+}
+
+#banner {
+	text-align: left;
+	border: 1px solid;
 }
 
 #banner figure img {
@@ -54,7 +59,7 @@
 	padding: 0px;
 }
 
-.content-block  header h1 {
+.content-block  header h1, h2, #outline {
 	display: block;
 	background: #f7f4e1;
 	padding: 0px;

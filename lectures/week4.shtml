@@ -1,12 +1,14 @@
-<!--#include virtual="/includes/header.shtml” -->
-<article>
-    <h1 id="titlebar">
+<!--#include virtual="../includes/header.shtml" -->
+<section  id="main-body">
+	<header id="titlebar">
+		<h1 >
         comp 1950 &gt; week 4: css concepts
     </h1>
+	
+	<article class="content-block  dashed-box">
     <h2>
        agenda
     </h2>
-    <div class="content-block">
        <ul>
 
 		<li>Markup Quiz</li>
@@ -18,28 +20,23 @@
 
        </ul>
 
-    </div>
+    </article>
 
-
+	<article class="content-block  dashed-box">
 	<h2>Markup Quiz</h2>
 
-	<div class="content-block notice"> 
-
 		<p>A quick markup quiz that covers the first 3 weeks of the course. 15 minutes is all you should need.</p>
-		</div>
 
 
 		<h2>HTML5 Assignment</h2>
-		<div class="content-block">
 		<p>I want to take a look at some of the HTML5/SEO assignments that were completed for this week's class.</p>
 		<p>One excellent tool we can take a look at while doing that is this <a href="http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf">HTML5 element flowchart</a> created by the authors of HTML5 Doctor.</p>
 
-	</div>						
+	</article>						
 
 
-				
+	<article class="content-block  dashed-box">				
 	<h2>Referencing CSS</h2>
-	<div class="content-block">
 		<h3>Linking your CSS</h3>
 		<p>When linking to external style sheets, there are a number of things to know about linking to those external files.  A standard LINK element:</p>
 
@@ -114,12 +111,11 @@
 
 
 
-	</div>
+	</article>
 
 
-
+	<article class="content-block  dashed-box">
 	<h2>CSS Selectors</h2>
-	<div class="content-block">
 		<p>Other than basic Element, Class, and ID selectors, there are many more that allow you to really present your content.</p>
 
 		<h3>Working with CSS selectors</h3>
@@ -134,10 +130,10 @@
 			<li>Multiple classes can be called from any HTML element</li>
 			<li>As you build more rules, some will combine with previous rules, others will overwrite previous ones (as needed)</li>
 		</ul>
-	</div>
+	</article>
 
+	<article class="content-block  dashed-box">
 	<h2>Simplifying your CSS</h2>
-	<div class="content-block">
 		<p>When building your CSS rules, there are some easy ways to compact your code.
 
 		<h3>Grouping selectors</h3>
@@ -157,10 +153,10 @@
 			<li>Order is irrelevant</li>
 			<li>Case is important!  Remember to use a single rule for CSS naming and stick with it</li>
 		</ul>
-	</div>
+	</article>
 
+	<article class="content-block  dashed-box">
 	<h2>Selectors</h2>
-	<div class="content-block">
 		<p>Let's look at some different kinds of selectors...</p>
 
 		<h3>Universal Selector</h3>
@@ -225,13 +221,12 @@
 
 
 
-	</div>
+	</article>
 
 
-
+	<article class="content-block  dashed-box">
 
 	<h2>Rule Order &amp; Specificity</h2>
-	<div class="content-block">
 
 		<p>When a style declaration is found to be in conflict with a previously declared style, there is a method for determining which one will win out.  The process is built into every web browser, and almost all of them calculate the values identically (for once!).</p>
 
@@ -304,11 +299,10 @@
 			<li><strong>Bad fonts</strong>: Comic Sans and Impact.  Resist the urge!
 		</ul>
 
-	</div>
+	</article>
 
-
+	<article class="content-block  dashed-box">
 	<h2>CSS Measurements</h2>
-	<div class="content-block">
 
 		<p>In CSS, there are a number of measurement values that can be used in declarations.</p>
 
@@ -341,10 +335,10 @@
 			<li><strong>RGB: <code>rgb(255, 0, 255)</code></strong> - This allows the user to specify the same thing as Hex, but in Decimal format</li>
 			<li><strong>RGB %: <code>rgb(100%, 0%, 50%)</code></strong> - Almost identical to RGB, but with percentages of each color space instead</li>
 		</ul>
-	</div>
+	</article>
 
+	<article class="content-block  dashed-box">
 	<h2>CSS Resources</h2>
-	<div class="content-block">
 		<ul>
 			<li><strong><a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference">CSS  Reference</a></strong></li>
 			<li>An excellent book on CSS: <a href="http://www.amazon.ca/gp/product/0321643380?ie=UTF8&tag=css-tricks-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321643380">Handcrafted CSS</a></li>
@@ -352,10 +346,10 @@
 			
 		</ul>
 
-	</div>
+	</article>
 
+	<article class="content-block  dashed-box">
 	<h2>CSS Reset</h2>
-	<div class="content-block">
 	
 		<p>An excellent way to instruct a browser to set attributes to predictable values</p>
 		<p>This is one of the best ways to get closer to <strong>cross-browser compatibility</strong>!</p>
@@ -387,10 +381,10 @@
 			<li><strong>Note</strong>: use before any other stylesheets!</li>
 			<li>Remember to code your CSS from General to Specific. A reset is meant to be very general, allowing you to build on top of it</li>
 		</ul>
-	</div>
+	</article>
 
+	<article class="content-block  dashed-box">
 	<h2>Organizing CSS Rules</h2>
-	<div class="content-block">
 		<p>When building your CSS, here are some tips to better organize your rules</p>
 		<ul>
 			<li><strong>General to Specific</strong> - The best way to write your rules is from the very general, low specificity items to the very specific high specificity items</li>
@@ -398,12 +392,10 @@
 			<li><strong>!important always wins.</strong> If you want a specific rule to be used no matter where it falls in the cascade, add <strong>!important</strong> to the end.  Use this <strong>sparingly</strong>!</li>
 			<li>Comment your code!</li>
 		</ul>
-	</div>
+	</article>
 
-
-	
+	<article class="content-block  dashed-box">	
 	<h2>Navigation Lists</h2>
-	<div class="content-block">
 		<ul>
 			<li>One of the best ways to make your code more semantic: build list-based navigation</li>
 			<li>Lots of benefits: <ul>
@@ -416,11 +408,10 @@
 			<li>It's a mental shift for experienced coders</li>
 		</ul>
 		<p>Let's take a look at an <a href="exercises/list_nav.html">exercise to build a vertical navigation</a> built with an unordered list and styled in CSS.</p>
-	</div>
+	</article>
 
-
+	<article class="content-block  dashed-box">
 	<h2>Creating a Print Stylesheet</h2>
-	<div class="content-block">
 
 		<p>The key to a stylesheet specifically for printing is a matter of <em>planning</em> more than anything.</p>
 
@@ -535,11 +526,10 @@
 		</pre></code>
 
 		An <a href="examples/print_programmers.html">example page with two print styles</a>: Screen and Print
-	</div>
+	</article>
 
-
+	<article class="content-block  dashed-box">
 	<h2><a name="assignment">Homework</a></h2>
-	<div class="content-block">
 		<h3>Using Various Selectors</h3>
 		<p>While most selectors are fairly straightforward, using the right ones can be a little confusing.</p>
 		<p>To get a better handle on how they work, we'll use difference kinds of selectors to complete the exercises listed below</p>
@@ -592,9 +582,9 @@
 
 		<p>Both lists will come from the same HTML, just using different CSS. </p>
 
-	</div>
+	</article>
 
 
 
-</article>
-<!--#include virtual="/includes/footer.inc" -->
+</section>
+<!--#include virtual="../includes/footer.inc" -->
