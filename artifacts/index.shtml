@@ -1,0 +1,53 @@
+<!--#include virtual="/includes/header.shtml" -->
+			
+				<section id="main-body">
+				
+ <h2>Artifacts </h2>
+				           	
+     
+	 <article id="rationale">
+					<h2>Rationale</h2>
+					   <p>Each team member resonsible for specific items and have athread on google forum and then we will do a peer reiview once substantial completion of our individual tasks
+
+					<a href="rationale.html"> read more</p></a>
+                  
+			</article>	
+			
+	     
+	 <article id="sitemap">		
+			
+<h2>Sitemap</h2>	
+<a href="sitemap.png" target="_blank"><img src="Sitemap1950.jpg" width="200px" height="150px"/></a>			
+ <a href="Sitemap1950.pdf"><img id="dl_icon" src="pdf.gif"/></a> 
+       
+			</article>	
+
+						
+	<article id="wireframe">
+
+	<h3>Wireframes</h3>
+	
+	<a href="screen_wireframe.pdf"target="_blank"><img src="Wireframe_Project .jpg" alt="Screen"/></a>
+	<a href="mobile_wireframe.pdf"target="_blank"><img src="Mobile_wireframe .jpg" alt="Mobile"/></a>
+	<a href="print_wireframe.pdf"target="_blank"><img src="Print_wireframe.jpg" alt="Print"/></a>
+			
+    
+	</article>
+					
+					<article id="project_details">
+					 <h3>Project Requirements</h3></a>
+					  <a href="http://www.thenet.ca/1950/project" target="_blank"><img src="comp1950logo.png"/></a>	
+					  </article>
+					  
+					  	<article id="aboutus">
+	<h3>About Us</h3>
+	  
+	  <a href="aboutus.html" target="_blank"><img src="aboutus.jpg"/></a>	
+                    </article>
+				</section>
+  </div> 
+			</div>
+			
+			<div class = "clearFloat"></div>
+			
+<!--#include virtual="/includes/footer.inc" -->
