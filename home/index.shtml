@@ -1,7 +1,7 @@
-<!--#include virtual="/includes/header.shtml" -->
+<!--#include virtual="../includes/header.shtml" -->
 	<section id="main-body">
 		<header  id="banner">
-			<figure ><img src="images/bcit.jpg" alt="banner" /></figure>			
+			<figure ><img src="../images/bcit.jpg" alt="banner" /></figure>			
 			<h1>Winter 2013 - welcome!</h1>
 		</header>
 
@@ -127,4 +127,4 @@
 
 <div class = "clearFloat"></div>
 
-<!--#include virtual="/includes/footer.inc" -->
+<!--#include file="../includes/footer.inc" -->
