@@ -2,6 +2,8 @@
 		Drop Down Nav
 *****************************************/
 
+/*
+
 #top-nav-div {
 	display: none;
 }
@@ -82,7 +84,7 @@
 /****************************************
 		Drop Down Nav Mobile
 *****************************************/
-/*
+
 #top-nav a, a:visited, a:hover, a:active {
 	text-decoration: none;
 	color: #979797;
