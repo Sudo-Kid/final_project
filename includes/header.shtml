@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Team Lollysource">
+	<!-- TO ADD ANOTHER JUST COPY AND PAST BEFORE THE ENDIF -->
+	<!--#if expr='"$DOCUMENT_URI" = "/FILE LOCATION.shtml"' -->
+		<title>YOUR PAGE TITLE HERE</title>
+		<meta name="description" content="YOUR PAGE DESCRIPTION HERE">
+	<!--#if expr='"$DOCUMENT_URI" = "/FILE LOCATION.shtml"' -->
+		<title>YOUR PAGE TITLE HERE</title>
+		<meta name="description" content="YOUR PAGE DESCRIPTION HERE">
+	<!--#if expr='"$DOCUMENT_URI" = "/FILE LOCATION.shtml"' -->
+		<title>YOUR PAGE TITLE HERE</title>
+		<meta name="description" content="YOUR PAGE DESCRIPTION HERE">
+	<!--#if expr='"$DOCUMENT_URI" = "/FILE LOCATION.shtml"' -->
+		<title>YOUR PAGE TITLE HERE</title>
+		<meta name="description" content="YOUR PAGE DESCRIPTION HERE">
+	<!--#if expr='"$DOCUMENT_URI" = "/FILE LOCATION.shtml"' -->
+		<title>YOUR PAGE TITLE HERE</title>
+		<meta name="description" content="YOUR PAGE DESCRIPTION HERE">
+	<!--#endif -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet"	href="/styles/normalize.css">
+
+	<link type="text/css" 
+		rel="stylesheet" 
+		href="styles/boxmodel.css">
+
+	<link type="text/css" 
+		rel="stylesheet" 
+		href="styles/template.css">     
+
+	<link type="text/css" 
+		rel="stylesheet" 
+		href="styles/styles.css"> 
+
+	<link rel="stylesheet" 
+		href="styles/print.css" 
+		media="print">  
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	
+	<script src="http://students.thenet.ca/elambke/js/jquery.zrssfeed.min.js" type="text/javascript"></script>
+
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+	<script type="text/javascript"> 
+	// Added this to the header because there was no reason to have this in a file by itself.
+		 $(function() {
+			$( "#accordion" ).accordion({
+				heightStyle: "content",
+				collapsible: true
+			});
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+		  $('#rss-feed').rssfeed('http://blog-1950.tumblr.com/tagged/blog/rss', {
+			limit: 3
+		  });
+		});
+
+		$(document).ready(function () {
+			$('#rss-feed').rssfeed('http://blog-1950.tumblr.com/tagged/blog/rss',{},function(e) {
+
+				$('h4 a',e).each(function(i) {
+					$(this).css({
+						"text-decoration" : "none",
+						"font-size" : "110%",
+						"color" : "#000"
+					});
+					$(this).hover(
+						function (){
+							$(this).css("font-style", "italic");
+						},
+						function (){
+							$(this).css("font-style", "normal");
+						}
+					);
+				});
+
+				$('.rssRow div',e).each(function(i) {
+					$(this).css({
+						"font-size" : "80%",
+						"color" : "#736b5d"
+					});
+				});
+
+			});
+		});			
+	</script>   
+
+</head>
+<body>
+	<div id = "main-wrapper">
