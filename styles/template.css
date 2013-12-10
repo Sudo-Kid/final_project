@@ -30,6 +30,11 @@
 			border-top: 2px solid #296b7c;
 		}
 
+		#bcit-banner a{
+			text-decoration: none;
+			color: white;
+		}
+
 		#anchor-nav {
 			border-top-left-radius: 10px;
 			border-top-right-radius: 10px;
@@ -112,7 +117,14 @@
 			margin: 0px;
 			padding: 25px 15px 110px;
 		}
-				
+
+		@media only screen and (max-width: 360px) {
+			header {
+				margin: 0px;
+				padding: 25px 10px 110px;
+			}
+		}	
+
 						
 		
 		#bcit-banner {
