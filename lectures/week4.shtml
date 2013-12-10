@@ -537,7 +537,7 @@
 	</div>
 
 
-	<h2>Homework</h2>
+	<h2><a name="assignment">Homework</a></h2>
 	<div class="content-block">
 		<h3>Using Various Selectors</h3>
 		<p>While most selectors are fairly straightforward, using the right ones can be a little confusing.</p>

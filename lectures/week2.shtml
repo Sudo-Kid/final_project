@@ -972,7 +972,7 @@
 
 
 
-	<h2>Markup Exercise</h2>
+	<h2><a name="assignment">Markup Exercise</a></h2>
 	<section class="content-block">
 		You have <strong>two pieces of homework</strong> for this week. Please finish both:</p>
 		<ul><li><a href="exercises/content.html">Create a page for Finnegan</a> in XHTML Strict <strong>and</strong> HTML5</li>
