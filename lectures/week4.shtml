@@ -1,3 +1,4 @@
+<!--#include virtual="/includes/header.shtml” -->
 <article>
     <h1 id="titlebar">
         comp 1950 &gt; week 4: css concepts
@@ -596,3 +597,4 @@
 
 
 </article>
+<!--#include virtual="/includes/footer.inc" -->
