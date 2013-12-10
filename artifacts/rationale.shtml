@@ -116,4 +116,4 @@ mobile.css - included in boxmodel.css as @media query</p>
 			
 			<div class = "clearFloat"></div>
 			
-<!--#include virtual="/includes/footer.inc" -->
+<!--#include virtual="/includes/footer.shtml" -->

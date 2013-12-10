@@ -50,4 +50,4 @@
 			
 			<div class = "clearFloat"></div>
 			
-<!--#include virtual="../includes/footer.inc" -->
+<!--#include virtual="../includes/footer.shtml" -->

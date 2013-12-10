@@ -127,4 +127,4 @@
 
 <div class = "clearFloat"></div>
 
-<!--#include file="../includes/footer.inc" -->
+<!--#include virtual="../includes/footer.shtml" -->
