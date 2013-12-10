@@ -17,7 +17,7 @@
 	 <article id="sitemap">		
 			
 <h2>Sitemap</h2>	
-<a href="sitemap.png" target="_blank"><img src="Sitemap1950.jpg" width="200px" height="150px"/></a>			
+<a href="sitemap.png" target="_blank"><img src="sitemap.png" width="200px" height="150px"/></a>			
  <a href="Sitemap1950.pdf"><img id="dl_icon" src="pdf.gif"/></a> 
        
 			</article>	
@@ -42,7 +42,7 @@
 					  	<article id="aboutus">
 	<h3>About Us</h3>
 	  
-	  <a href="aboutus.html" target="_blank"><img src="aboutus.jpg"/></a>	
+	  <a href="aboutus.shtml" target="_blank"><img src="aboutus.jpg"/></a>	
                     </article>
 				</section>
   </div> 
