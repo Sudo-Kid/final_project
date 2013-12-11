@@ -34,27 +34,27 @@ Lolit to expand on wordpress proposal or perhaps we can expand on Jetible AKA Ge
 
 <p>2.The idea to use Tumblr for the entirety of the project was considered and investigated (and passionately debated). </p> 
 
-<p>	The basic description of the proposed solution:</br>
--Utilize Tumblr’s out of the box CMS functionality</br>
--Lecture notes entered as blog posts tagged as “lecture”, assignments as “assignment”, examples as “example”, bog posts as “blog” etc</br>
+<p>	The basic description of the proposed solution:<br>
+-Utilize Tumblr’s out of the box CMS functionality<br>
+-Lecture notes entered as blog posts tagged as “lecture”, assignments as “assignment”, examples as “example”, bog posts as “blog” etc<br>
 -Menus would be populated according to the post tags using javascript to parse the RSS feed.</p>
 
-<p>	The case for:</br>
--easily accomplishes all of the CMS-type requirements in the questionnaire (eg non-ftp updates, timed release of content, etc)</br>
--free to use</br>
+<p>	The case for:<br>
+-easily accomplishes all of the CMS-type requirements in the questionnaire (eg non-ftp updates, timed release of content, etc)<br>
+-free to use<br>
 -entire team is experienced with customizing templates</p>
 
 
 <p>	The case against:
--impossible to be HTML5 compliant.  The project documents clearly state that this is required and the team decided that the website of a class that teaches web standards should comply with them.</br>
--division of labour is difficult when working on a tumblr template</br>
+-impossible to be HTML5 compliant.  The project documents clearly state that this is required and the team decided that the website of a class that teaches web standards should comply with them.<br>
+-division of labour is difficult when working on a tumblr template<br>
 -Tumblr is potentially unreliable.  During the investigation, the account was locked out on 3 occassions due to “suspicious activities” (frequent template updates with javascript). In the past few years, many powerful tumblr features have been changed or locked out from new user’s account.  There is no guarantee that future tumblr updates won’t break our customizations. 
 
 <p>	Due to these considerations, it was decided that Tumblr was not the right platform to host the comp-1950 website.  </p>
 
 
 <p>3. FORUM
-Edward. Emett, Lolit - what is this about? please explain</p>
+Edward. Emett, Lolit - We would like to suggest a forum system that will give the classmates a way to comunicate about issues they are having or trouble with code.</p>
 
 <p>4. FOOTER
 Tools resources and links content was imported from spreadsheet and tools were an aggregation of resources used for the development of this project</p>
@@ -71,19 +71,19 @@ http://www.bcit.ca/_Website_Settings/v4_global.css
 
 
 
-<p>3. Stylesheets</br>A basic page template (html and css) was created (Owned by Lolit)</br>
+<p>3. Stylesheets<br>A basic page template (html and css) was created (Owned by Lolit)<br>
 4 types of .css files were created:
 boxmodel.css for positioning (Owned by Edward)
 template.css for global styling (Owned by Lolit)
 print.css for print specific styling
 page specific styling.
 
-boxmodel.css </br>
-styles.css</br>
-@import name.css</br>
-ie. @import edward.css</br>
+boxmodel.css <br>
+styles.css<br>
+@import name.css<br>
+ie. @import edward.css<br>
 
-print.css -section and article only</br>
+print.css -section and article only<br>
 mobile.css - included in boxmodel.css as @media query</p>
 
 <p>4. Navigation main navigation is a list style drop down and secondary nav jQuery accordian style cuz its sexier</p>
@@ -95,8 +95,8 @@ mobile.css - included in boxmodel.css as @media query</p>
 
 
 <h2>Behaviour</h2>
-<p>1.search (not sure if this is behaviour or presentation, if javascript it sort of falls into behaviour by default, if google search probably falls into presentation) 
-<p>2. Secondary navigation  to give overview of content of the link - Emett to explain the jQuery you use
+<p>1.search (not sure if this is behaviour or presentation, if javascript it sort of falls into behaviour by default, if google search probably falls into presentation) </p>
+<p>2. Secondary navigation  to give overview of content of the link - We useed JQuery UI to build out this navbar. We felt that having it as an accordion would be best as it takes up less space well keeping functionality</p> 
 
 <p>3.media queries 
 
@@ -111,8 +111,6 @@ mobile.css - included in boxmodel.css as @media query</p>
 
 </article>
 				</section>
-
-			</div>
 			
 			<div class = "clearFloat"></div>
 			
