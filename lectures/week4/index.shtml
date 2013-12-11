@@ -1,4 +1,4 @@
-<!--#include virtual="../includes/header.shtml" -->
+<!--#include virtual="/includes/header.shtml" -->
 <section  id="main-body">
 	<header id="titlebar">
 		<h1 >
@@ -587,4 +587,4 @@
 
 
 </section>
-<!--#include virtual="../includes/footer.shtml" -->
+<!--#include virtual="/includes/footer.shtml" -->

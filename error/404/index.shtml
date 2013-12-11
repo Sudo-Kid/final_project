@@ -1,0 +1,13 @@
+<!--#include virtual="/includes/header.shtml” -->
+	<article class="error_404">
+		<header>
+			<h1>This is a 404 error page</h1>
+		</header>
+		<section>
+			<p>You have reached a page that does not exsist and for finding this gem here is an image of a random puppy</p>
+			<figure>
+				<img src="http://placedog.com/g/400/300" alt="Random Dog image" width="400" height="300">
+			</figure>
+		</section>
+	</article>
+<!--#include virtual="/includes/footer.inc" -->
