@@ -1,4 +1,4 @@
-<!--#include virtual="/includes/header.shtml" -->
+<!--#include virtual="/lolly/includes/header.shtml" -->
 	<section id="main-body">
 		<header  id="banner">
 			<figure ><img src="images/bcit.jpg" alt="banner" /></figure>			
@@ -127,4 +127,4 @@
 
 <div class = "clearFloat"></div>
 
-<!--#include virtual="/includes/footer.inc" -->
+<!--#include virtual="/lolly/includes/footer.inc" -->

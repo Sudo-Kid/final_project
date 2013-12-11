@@ -3,52 +3,52 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Team Lollysource">
-	<!--#if expr='"$DOCUMENT_URI" = "/home/index.shtml"' -->
+	<!--#if expr='"$DOCUMENT_URI" = "/lolly/home/index.shtml"' -->
 		<title>Thenet - Home</title>
 		<meta name="description" content="This is the front page of Thenet">
-	<!--#elif expr='"$DOCUMENT_URI" = "/contact/index.shtml"' -->
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/contact/index.shtml"' -->
 		<title>Thenet - Contact</title>
 		<meta name="description" content="This is our contact page">
-	<!--#elif expr='"$DOCUMENT_URI" = "/lectures/index.shtml"' -->
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/lectures/index.shtml"' -->
 		<title>Thenet - Lectures</title>
 		<meta name="description" content="This is the landing page for all lectures">
-	<!--#elif expr='"$DOCUMENT_URI" = "/lectures/week1/index.shtml"' -->
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/lectures/week1/index.shtml"' -->
 		<title>Thenet - Week 1</title>
 		<meta name="description" content="Lecture page for week 1">
-	<!--#elif expr='"$DOCUMENT_URI" = "/lectures/week2/index.shtml"' -->
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/lectures/week2/index.shtml"' -->
 		<title>Thenet - Week 2</title>
 		<meta name="description" content="Lecture page for week 2">
-	<!--#elif expr='"$DOCUMENT_URI" = "/lectures/week3/index.shtml"' -->
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/lectures/week3/index.shtml"' -->
 		<title>Thenet - Week 3</title>
 		<meta name="description" content="Lecture page for week 3">
-	<!--#elif expr='"$DOCUMENT_URI" = "/lectures/week4/index.shtml"' -->
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/lectures/week4/index.shtml"' -->
 		<title>Thenet - Week 4</title>
 		<meta name="description" content="Lecture page for week 4">
-	<!--#elif expr='"$DOCUMENT_URI" = "/error_404.shtml"' -->
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/error_404.shtml"' -->
 		<title>Thenet - BARK BARK WOOF WOOF</title>
 		<meta name="description" content="BARK WOOF BARK BARK WOOF BARK WOOF">
-	<!--#elif expr='"$DOCUMENT_URI" = "/FILE LOCATION.shtml"' -->
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/FILE LOCATION.shtml"' -->
 		<title>Thenet - YOUR PAGE TITLE HERE</title>
 		<meta name="description" content="YOUR PAGE DESCRIPTION HERE">
 	<!--#endif -->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
-	<link type="text/css" rel="stylesheet"	href="/styles/normalize.css">
+	<link type="text/css" rel="stylesheet"	href="/lolly/styles/normalize.css">
 
 	<link type="text/css" 
 		rel="stylesheet" 
-		href="/styles/boxmodel.css">
+		href="/lolly/styles/boxmodel.css">
 
 	<link type="text/css" 
 		rel="stylesheet" 
-		href="/styles/template.css">     
+		href="/lolly/styles/template.css">     
 
 	<link type="text/css" 
 		rel="stylesheet" 
-		href="/styles/styles.css"> 
+		href="/lolly/styles/styles.css"> 
 
 	<link rel="stylesheet" 
-		href="/styles/print.css" 
+		href="/lolly/styles/print.css" 
 		media="print">  
 
 
@@ -111,7 +111,7 @@
 	<header>
 		<div id="bcit-banner">
 
-			<a href="/">BCIT</a>
+			<a href="/lolly/">BCIT</a>
 
 		</div> <!--end bcit-banner-->
 
@@ -125,16 +125,16 @@
 				<li>
 					<a href="">Lectures</a>
 					<ul>
-						<li><a href="/lectures/week1/index.shtml">Week 1</a></li>
-						<li><a href="/lectures/week2/index.shtml">Week 2</a></li>
-						<li><a href="/lectures/week3/index.shtml">Week 3</a></li>
-						<li><a href="/lectures/week4/index.shtml">Week 4</a></li>
+						<li><a href="/lolly/lectures/week1/index.shtml">Week 1</a></li>
+						<li><a href="/lolly/lectures/week2/index.shtml">Week 2</a></li>
+						<li><a href="/lolly/lectures/week3/index.shtml">Week 3</a></li>
+						<li><a href="/lolly/lectures/week4/index.shtml">Week 4</a></li>
 					</ul>
 				</li>
 				<li><a href="http://blog-1950.tumblr.com/">Blog</a></li>
-				<li><a href="forums">Forums</a></li>
+				<li><a href="/lolly/lollyorums">Forums</a></li>
 				<li>
-					<a href="/artifacts">Artifacts</a>
+					<a href="/lolly/artifacts">Artifacts</a>
 				</li>
 			</ul>
 
@@ -163,8 +163,8 @@
 					<div> <!-- Start Lecture 1 Div -->
 						<!-- Start Content Here -->
 						<ul>
-							<li><a href="/lectures/week1">Lecture 1</a></li>
-							<li><a href="/lectures/week1.htmls#assignment">Assignment</a></li>
+							<li><a href="/lolly/lectures/week1">Lecture 1</a></li>
+							<li><a href="/lolly/lectures/week1.htmls#assignment">Assignment</a></li>
 						</ul>
 					</div> <!-- End Start Lecture 1 Div -->
 					<!-- End Lecture -->
@@ -174,8 +174,8 @@
 					<div> <!-- Start Lecture 2 Div -->
 						<!-- Start Content Here -->
 						<ul>
-							<li><a href="/lectures/week2">Lecture 2</a></li>
-							<li><a href="/lectures/week2.htmls#assignment">Assignment</a></li>
+							<li><a href="/lolly/lectures/week2">Lecture 2</a></li>
+							<li><a href="/lolly/lectures/week2.htmls#assignment">Assignment</a></li>
 						</ul>
 					</div> <!-- End Start Lecture 2 Div -->
 					<!-- End Lecture -->
@@ -185,8 +185,8 @@
 					<div> <!-- Start Lecture 3 Div -->
 						<!-- Start Content Here -->
 						<ul>
-							<li><a href="/lectures/week3">Lecture 3</a></li>
-							<li><a href="/lectures/week3.htmls#assignment">Assignment</a></li>
+							<li><a href="/lolly/lectures/week3">Lecture 3</a></li>
+							<li><a href="/lolly/lectures/week3.htmls#assignment">Assignment</a></li>
 						</ul>
 					</div> <!-- End Start Lecture 3 Div -->
 					<!-- End Lecture -->
@@ -196,8 +196,8 @@
 					<div> <!-- Start Lecture 4 Div -->
 						<!-- Start Content Here -->
 						<ul>
-							<li><a href="/lectures/week4">Lecture 4</a></li>
-							<li><a href="/lectures/week4.htmls#assignment">Assignment</a></li>
+							<li><a href="/lolly/lectures/week4">Lecture 4</a></li>
+							<li><a href="/lolly/lectures/week4.htmls#assignment">Assignment</a></li>
 						</ul>
 					</div> <!-- End Start Lecture 4 Div -->
 					<!-- End Lecture -->
