@@ -128,10 +128,10 @@
 				<li>
 					<a href="">Lectures</a>
 					<ul>
-						<li><a href="/lolly/lectures/week1/index.shtml">Week 1</a></li>
-						<li><a href="/lolly/lectures/week2/index.shtml">Week 2</a></li>
-						<li><a href="/lolly/lectures/week3/index.shtml">Week 3</a></li>
-						<li><a href="/lolly/lectures/week4/index.shtml">Week 4</a></li>
+						<li><a href="/lolly/lectures/week1/">Week 1</a></li>
+						<li><a href="/lolly/lectures/week2/">Week 2</a></li>
+						<li><a href="/lolly/lectures/week3/">Week 3</a></li>
+						<li><a href="/lolly/lectures/week4/">Week 4</a></li>
 					</ul>
 				</li>
 				<li><a href="http://blog-1950.tumblr.com/">Blog</a></li>
