@@ -1,4 +1,4 @@
-<!--#include virtual="/includes/header.shtml” -->
+<!--#include virtual="/includes/header.shtml" -->
 	<article class="error_404">
 		<header>
 			<h1>This is a 404 error page</h1>
@@ -10,4 +10,4 @@
 			</figure>
 		</section>
 	</article>
-<!--#include virtual="/includes/footer.inc" -->
+<!--#include virtual="/includes/footer.shtml" -->
