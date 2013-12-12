@@ -1,4 +1,4 @@
-<!--#include virtual="../includes/header.shtml" -->
+<!--#include virtual="/lolly/includes/header.shtml" -->
 <h1>About Us</h1>
 	<section id="main-body">
 		<ul>
@@ -11,4 +11,4 @@
 
 <div class = "clearFloat"></div>
 			
-<!--#include virtual="../includes/footer.shtml" -->
+<!--#include virtual="/lolly/includes/footer.shtml" -->

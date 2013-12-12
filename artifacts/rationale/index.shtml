@@ -1,4 +1,4 @@
-<!--#include virtual="../includes/header.shtml" -->
+<!--#include virtual="/lolly/includes/header.shtml" -->
 			
 				<section id="main-body">
 <h1>Rationale</h1>
@@ -114,4 +114,4 @@ mobile.css - included in boxmodel.css as @media query</p>
 			
 			<div class = "clearFloat"></div>
 			
-<!--#include virtual="../includes/footer.shtml" -->
+<!--#include virtual="/lolly/includes/footer.shtml" -->

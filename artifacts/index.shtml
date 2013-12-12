@@ -9,7 +9,7 @@
 					<h2>Rationale</h2>
 					   <p>Each team member resonsible for specific items and have athread on google forum and then we will do a peer reiview once substantial completion of our individual tasks
 
-					<a href="rationale.shtml"> read more</p></a>
+					<a href="rationale/index.shtml"> read more</p></a>
                   
 			</article>	
 			
@@ -42,7 +42,7 @@
 					  	<article id="aboutus">
 	<h3>About Us</h3>
 	  
-	  <a href="aboutus.shtml" target="_blank"><img src="aboutus.jpg"/></a>	
+	  <a href="aboutus/index.shtml" target="_blank"><img src="aboutus.jpg"/></a>	
                     </article>
 				</section>
   </div> 

@@ -5,35 +5,58 @@
 	<meta name="author" content="Team Lollysource">
 	<!--#if expr='"$DOCUMENT_URI" = "/lolly/home/index.shtml"' -->
 		<title>Thenet - Home</title>
-		<meta name="description" content="This is the front page of Thenet">
+		<meta name="description" content="This is the front page of Thenet.">
+
 	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/contact/index.shtml"' -->
 		<title>Thenet - Contact</title>
-		<meta name="description" content="This is our contact page">
+		<meta name="description" content="This is our contact page.">
+
 	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/lectures/index.shtml"' -->
 		<title>Thenet - Lectures</title>
-		<meta name="description" content="This is the landing page for all lectures">
+		<meta name="description" content="This is the landing page for all lectures.">
+
 	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/lectures/week1/index.shtml"' -->
 		<title>Thenet - Week 1</title>
-		<meta name="description" content="Lecture page for week 1">
+		<meta name="description" content="Lecture page for week 1.">
+
 	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/lectures/week2/index.shtml"' -->
 		<title>Thenet - Week 2</title>
-		<meta name="description" content="Lecture page for week 2">
+		<meta name="description" content="Lecture page for week 2.">
+
 	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/lectures/week3/index.shtml"' -->
 		<title>Thenet - Week 3</title>
-		<meta name="description" content="Lecture page for week 3">
+		<meta name="description" content="Lecture page for week 3.">
+
 	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/lectures/week4/index.shtml"' -->
 		<title>Thenet - Week 4</title>
-		<meta name="description" content="Lecture page for week 4">
+		<meta name="description" content="Lecture page for week 4.">
+
 	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/error_404.shtml"' -->
 		<title>Thenet - BARK BARK WOOF WOOF</title>
 		<meta name="description" content="BARK WOOF BARK BARK WOOF BARK WOOF">
-	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/FILE LOCATION.shtml"' -->
+
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/artifacts/aboutus/index.shtml"' -->
+		<title>Thenet - About US</title>
+		<meta name="description" content="This page is about the Lollysource team in Comp1959 Fall 2013.">
+
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/artifacts/rationale.shtml"' -->
+		<title>Thenet - Rationale Page</title>
+		<meta name="description" content="Welcome to our rationale page.">
+
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/artifacts/aboutus.shtml"' -->
 		<title>Thenet - YOUR PAGE TITLE HERE</title>
-		<meta name="description" content="YOUR PAGE DESCRIPTION HERE">
+		<meta name="description" content="This page has links to our home pages.">
+
+	<!--#elif expr='"$DOCUMENT_URI" = "/lolly/artifacts/index.shtml"' -->
+		<title>Thenet - Artifacts</title>
+		<meta name="description" content="Welcome to our artifacts page.">
+
 	<!--#else -->
 		<title>Thenet - THIS PAGE HAS NO NAME</title>
 		<meta name="description" content="I NEVER ADDED A DESCRIPTION FOR THIS PAGE">
+
 	<!--#endif -->
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
 	<link type="text/css" rel="stylesheet"	href="/lolly/styles/normalize.css">
