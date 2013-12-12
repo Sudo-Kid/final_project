@@ -137,7 +137,7 @@
 			</p>
 
 			<p>
-			The best tool for Web Developers is the <a href="https://addons.mozilla.org/extensions/moreinfo.php?application=firefox&category=Developer%20Tools&numpg=10&id=60">
+			The best tool for Web Developers is the <a href="https://addons.mozilla.org/extensions/moreinfo.php?application=firefox&amp;category=Developer%20Tools&amp;numpg=10&amp;id=60">
 			Web Developer toolbar
 			</a>
 			</p>
@@ -147,7 +147,7 @@
 			</a>.
 
 			</p>
-			<p>Some of the amazing tools this has to offer web developers:
+			<p>Some of the amazing tools this has to offer web developers:</p>
 				<ul>
 					<li>Disable styles - by embedded/linked/inline as well as all styles, or just a single sheet</li>
 					<li>Edit CSS &amp; HTML - Make live changes to your CSS or HTML!</li>
@@ -156,7 +156,6 @@
 					<li>Built in validators</li>
 					<li>Line Guides &amp; Rulers</li>
 				</ul>
-			</p>
 	</article>
 
 	<article  class="content-block  dashed-box">	
@@ -467,7 +466,7 @@
 		<li><code>cite</code> - <cite>Citation</cite></li>
 		<li><code>dfn</code> - <dfn>Definition</dfn></li>
 		<li><code>abbr</code> - <abbr title="Abbreviation definition here">Abbreviation</abbr></li>
-		<li><code>acronym</code> - <acronym title="This is an acronym">Acronym</acronym></li>
+		<li><code>acronym</code> - <abbr title="This is an acronym">Acronym</abbr></li>
 		<li><code>del</code> - <del>Deleted text</del></li>
 		<li><code>ins</code> - <ins>Inserted text</ins></li></ul></li>
 	</ul>
