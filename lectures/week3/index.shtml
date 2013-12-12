@@ -149,7 +149,7 @@
 
 
 	<article class="content-block  dashed-box">
-	<h2><a name="assignment">Week 3 Homework: Realtor Site</a></h2>
+	<h2><a id="assignment">Week 3 Homework: Realtor Site</a></h2>
 		<p>You will be developing your Realtor Page into a Site!</p>
 		<p>Don't worry about the layout as much (more on that next week), but focus on the parts you can change right now: the content. This is the most important part of any site.</p>
 		<p>Using the principles of:</p>

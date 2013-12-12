@@ -529,7 +529,7 @@
 	</article>
 
 	<article class="content-block  dashed-box">
-	<h2><a name="assignment">Homework</a></h2>
+	<h2><a id="assignment">Homework</a></h2>
 		<h3>Using Various Selectors</h3>
 		<p>While most selectors are fairly straightforward, using the right ones can be a little confusing.</p>
 		<p>To get a better handle on how they work, we'll use difference kinds of selectors to complete the exercises listed below</p>
