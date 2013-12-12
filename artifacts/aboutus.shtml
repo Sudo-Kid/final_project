@@ -1,15 +1,14 @@
 <!--#include virtual="../includes/header.shtml" -->
-			<h1>About Us</h1>
-				<section id="main-body">
-				
-  <li><a href="http://students.thenet.ca/elambke"><h3>Edward Lambke</h3></a></li>
-    <li><a href="http://students.thenet.ca/ldoucette"><h3>Lolit Doucette</h3></a></li>
-	  <li><a href="http://students.thenet.ca/espeer"><h3>Emett Speer</h3></a></li>
-	    <li><a href="http://students.thenet.ca/khinkley"><h3>Kate Hinkley</h3></a></li>
-				</section>
+<h1>About Us</h1>
+	<section id="main-body">
+		<ul>
+			<li><a href="http://students.thenet.ca/elambke"><h3>Edward Lambke</h3></a></li>
+			<li><a href="http://students.thenet.ca/ldoucette"><h3>Lolit Doucette</h3></a></li>
+			<li><a href="http://students.thenet.ca/espeer"><h3>Emett Speer</h3></a></li>
+			<li><a href="http://students.thenet.ca/khinkley"><h3>Kate Hinkley</h3></a></li>
+		</ul>
+	</section>
 
-			</div>
-			
-			<div class = "clearFloat"></div>
+<div class = "clearFloat"></div>
 			
 <!--#include virtual="../includes/footer.shtml" -->
