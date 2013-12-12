@@ -208,7 +208,7 @@
 
 <article>
 	<header>
-		<h2><a name="assignment">assignment</a></h2>
+		<h2><a id="assignment">assignment</a></h2>
 	</header>
 	<section class="content-block">
 		<p>Create your course web site:
